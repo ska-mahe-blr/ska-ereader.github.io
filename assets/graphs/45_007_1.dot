@@ -1,0 +1,56 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node10_1 [style=filled, color="#00BFFF" label = "गान्धारी(10.1)"]
+Node9_1 [style=filled, color="#00BFFF" label = "सः(9.1)"]
+Node13_1 [style=filled, color="#00BFFF" label = "पृथा(13.1)"]
+
+}
+
+subgraph cluster_2{
+Node15_2 [style=filled, color="#00BFFF" label = "पुत्रः(15.2)"]
+Node17_1 [style=filled, color="#00BFFF" label = "सञ्जयः(17.1)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "कुरु-(1.1)"]
+Node1_2 [style=filled, color="#00BFFF" label = "उद्वहः(1.2)"]
+Node2_1 [style=filled, color="#00BFFF" label = "दृष्टः(2.1)"]
+Node [style=filled, color="" label = "()"]
+Node3_1 [style=filled, color="#40E0D0" label = "त्वया(3.1)"]
+Node4_1 [style=filled, color="#FF99FF" label = "तत्र(4.1)"]
+Node5_1 [style=filled, color="#FF99FF" label = "(किं)(5.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "कुशली(6.1)"]
+Node7_1 [style=filled, color="#FF1975" label = "(अस्ति)(7.1)"]
+Node8_1 [style=filled, color="#FF99FF" label = "(किं)(8.1)"]
+Node9_1 [style=filled, color="#00BFFF" label = "सः(9.1)"]
+Node11_1 [style=filled, color="#FF99FF" label = "अपि(11.1)"]
+Node10_1 [style=filled, color="#00BFFF" label = "गान्धारी(10.1)"]
+Node12_1 [style=filled, color="#FF99FF" label = "च(12.1)"]
+Node14_1 [style=filled, color="#FF99FF" label = "चैव(14.1)"]
+Node13_1 [style=filled, color="#00BFFF" label = "पृथा(13.1)"]
+Node15_1 [style=filled, color="#FFFF00" label = "सूत-(15.1)"]
+Node15_2 [style=filled, color="#00BFFF" label = "पुत्रः(15.2)"]
+Node16_1 [style=filled, color="#FF99FF" label = "च(16.1)"]
+Node17_1 [style=filled, color="#00BFFF" label = "सञ्जयः(17.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="समासः"  dir="back" ]
+Node1_2 -> Node2_1 [  label="कर्ता"  dir="back" ]
+Node3_1 -> Node2_1 [  label="कर्ता"  dir="back" ]
+Node4_1 -> Node2_1 [  label="देशादिकरणम्"  dir="back" ]
+Node5_1 -> Node2_1 [  label="प्रश्नद्योतकः"  dir="back" ]
+Node6_1 -> Node7_1 [  label="विधेयविशेषणम्"  dir="back" ]
+Node8_1 -> Node7_1 [  label="प्रश्नद्योतकः"  dir="back" ]
+Node9_1 -> Node7_1 [  label="कर्ता"  dir="back" ]
+Node10_1 -> Node9_1 [  label="समुच्चितः"  dir="back" ]
+Node11_1 -> Node10_1 [  label="सम्बन्धः"  dir="back" ]
+Node12_1 -> Node10_1 [  label="समुच्चयद्योतकः"  dir="back" ]
+Node13_1 -> Node9_1 [  label="समुच्चितः"  dir="back" ]
+Node14_1 -> Node13_1 [  label="समुच्चयद्योतकः"  dir="back" ]
+Node15_1 -> Node15_2 [  label="समासः"  dir="back" ]
+Node15_2 -> Node17_1 [  label="विशेषणम्"  dir="back" ]
+Node16_1 -> Node9_1 [  label="समुच्चयद्योतकः"  dir="back" ]
+}

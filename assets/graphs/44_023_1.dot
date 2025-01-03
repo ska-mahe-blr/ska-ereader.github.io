@@ -1,0 +1,45 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node2_2 [style=filled, color="#93DB70" label = "वचनं(2.2)"]
+Node3_1 [style=filled, color="#93DB70" label = "राजानम्(3.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "तम्(4.1)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "इति(1.1)"]
+Node2_1 [style=filled, color="#FFFF00" label = "उक्त-(2.1)"]
+Node2_2 [style=filled, color="#93DB70" label = "वचनं(2.2)"]
+Node3_1 [style=filled, color="#93DB70" label = "राजानम्(3.1)"]
+Node7_1 [style=filled, color="#FF1975" label = "अब्रवीत्(7.1)"]
+Node5_1 [style=filled, color="#FF99FF" label = "तु(5.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "तम्(4.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "नृपः(6.1)"]
+Node [style=filled, color="" label = "()"]
+Node8_1 [style=filled, color="#93DB70" label = "माम्(8.1)"]
+Node10_1 [style=filled, color="#FF99FF" label = "परित्यक्तुम्(10.1)"]
+Node9_1 [style=filled, color="#FFFF00" label = "अन-(9.1)"]
+Node9_2 [style=filled, color="#93DB70" label = "आगसम्(9.2)"]
+Node12_1 [style=filled, color="#FF1975" label = "अर्हसि(12.1)"]
+Node11_1 [style=filled, color="#FF99FF" label = "न(11.1)"]
+Node13_1 [style=filled, color="#FFFF00" label = "धर्म-(13.1)"]
+Node13_2 [style=filled, color="#6FFFC3" label = "ज्ञ(13.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_1 [  label="सम्बन्धः"  dir="back" ]
+Node2_1 -> Node2_2 [  label="समासः"  dir="back" ]
+Node2_2 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node7_1 [  label="कर्म"  dir="back" ]
+Node4_1 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node4_1 [  label="सम्बन्धः"  dir="back" ]
+Node6_1 -> Node7_1 [  label="कर्ता"  dir="back" ]
+Node8_1 -> Node10_1 [  label="कर्म"  dir="back" ]
+Node9_1 -> Node9_2 [  label="समासः"  dir="back" ]
+Node9_2 -> Node8_1 [  label="कर्मसमानाधिकरणम्"  dir="back" ]
+Node10_1 -> Node12_1 [  label="प्रयोजनम्"  dir="back" ]
+Node11_1 -> Node12_1 [  label="प्रतिषेधः"  dir="back" ]
+Node13_1 -> Node13_2 [  label="समासः"  dir="back" ]
+Node13_2 -> Node12_1 [  label="सम्बोध्यः"  dir="back" ]
+}

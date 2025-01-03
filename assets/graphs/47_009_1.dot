@@ -1,0 +1,37 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node8_1 [style=filled, color="#40E0D0" label = "सर्वैः(8.1)"]
+Node9_1 [style=filled, color="#40E0D0" label = "भ्रातृभिः(9.1)"]
+
+}
+Node1_1 [style=filled, color="#6FFFC3" label = "कौरव्य(1.1)"]
+Node6_1 [style=filled, color="#FF1975" label = "अर्हसि(6.1)"]
+Node2_1 [style=filled, color="#87CEEB" label = "तेषाम्(2.1)"]
+Node3_1 [style=filled, color="#FFFF00" label = "उदक-(3.1)"]
+Node3_2 [style=filled, color="#93DB70" label = "क्रियाम्(3.2)"]
+Node5_1 [style=filled, color="#FF99FF" label = "कर्तुम्(5.1)"]
+Node4_1 [style=filled, color="#00BFFF" label = "त्वम्(4.1)"]
+Node [style=filled, color="" label = "()"]
+Node7_1 [style=filled, color="#FF99FF" label = "अत्र(7.1)"]
+Node12_1 [style=filled, color="#FF1975" label = "विधीयताम्(12.1)"]
+Node9_1 [style=filled, color="#40E0D0" label = "भ्रातृभिः(9.1)"]
+Node10_1 [style=filled, color="#00BFFF" label = "सहितः(10.1)"]
+Node11_1 [style=filled, color="#00BFFF" label = "एतत्(11.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node6_1 [  label="सम्बोध्यः"  dir="back" ]
+Node2_1 -> Node3_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node3_1 -> Node3_2 [  label="समासः"  dir="back" ]
+Node3_2 -> Node5_1 [  label="कर्म"  dir="back" ]
+Node4_1 -> Node6_1 [  label="कर्ता"  dir="back" ]
+Node5_1 -> Node6_1 [  label="प्रयोजनम्"  dir="back" ]
+Node7_1 -> Node12_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node8_1 -> Node9_1 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node12_1 [  label="सहार्थः"  dir="back" ]
+Node10_1 -> Node9_1 [  label="सहार्थ_द्योतकः"  dir="back" ]
+Node11_1 -> Node12_1 [  label="कर्म"  dir="back" ]
+}

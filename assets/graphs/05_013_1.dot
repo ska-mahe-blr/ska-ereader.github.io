@@ -1,0 +1,55 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3 [style=filled, color="#93DB70" label = "तत्(3)"]
+Node13 [style=filled, color="#93DB70" label = "पुत्रशतम्(13)"]
+Node8 [style=filled, color="#93DB70" label = "अपलायिनम्(8)"]
+Node9 [style=filled, color="#93DB70" label = "शूरम्(9)"]
+Node12 [style=filled, color="#93DB70" label = "तम्(12)"]
+
+}
+Node1 [style=filled, color="#93DB70" label = "क्षत्रधर्मम्(1)"]
+Node2 [style=filled, color="#FF1975" label = "विदुः(2)"]
+Node21 [style=filled, color="#00BFFF" label = "(ते)(21)"]
+Node [style=filled, color="" label = ""]
+Node4 [style=filled, color="#FF99FF" label = "च(4)"]
+Node3 [style=filled, color="#93DB70" label = "तत्(3)"]
+Node5 [style=filled, color="#00BFFF" label = "अहम्(5)"]
+Node15 [style=filled, color="#FF1975" label = "अनुतप्यामि(15)"]
+Node6 [style=filled, color="#FF99FF" label = "हि(6)"]
+Node7 [style=filled, color="#C6E2EB" label = "संग्रामेषु(7)"]
+Node8 [style=filled, color="#93DB70" label = "अपलायिनम्(8)"]
+Node10 [style=filled, color="#93DB70" label = "हतम्(10)"]
+Node11 [style=filled, color="#FF99FF" label = "(किन्तु)(11)"]
+Node13 [style=filled, color="#93DB70" label = "पुत्रशतम्(13)"]
+Node14 [style=filled, color="#FF99FF" label = "न(14)"]
+Node17 [style=filled, color="#FF99FF" label = "उक्त्वा(17)"]
+Node16 [style=filled, color="#FF99FF" label = "इति(16)"]
+Node20 [style=filled, color="#FF1975" label = "अभ्यभाषत(20)"]
+Node18 [style=filled, color="#00BFFF" label = "कौरवः(18)"]
+Node19 [style=filled, color="#93DB70" label = "धर्मराजानम्(19)"]
+/* Start of Relations section */
+
+Node1 -> Node2 [  label="कर्म"  dir="back" ]
+Node3 -> Node13 [  label="विशेषणम्"  dir="back" ]
+Node4 -> Node3 [  label="सम्बन्धः"  dir="back" ]
+Node5 -> Node15 [  label="कर्ता"  dir="back" ]
+Node6 -> Node5 [  label="सम्बन्धः"  dir="back" ]
+Node7 -> Node8 [  label="देशाधिकरणम्"  dir="back" ]
+Node8 -> Node13 [  label="विशेषणम्"  dir="back" ]
+Node9 -> Node13 [  label="विशेषणम्"  dir="back" ]
+Node10 -> Node11 [  label="प्रतियोगी"  dir="back" ]
+Node11 -> Node15 [  label="अनुयोगी"  dir="back" ]
+Node12 -> Node13 [  label="विशेषणम्"  dir="back" ]
+Node13 -> Node10 [  label="कर्म"  dir="back" ]
+Node14 -> Node15 [  label="प्रतिषेधः"  dir="back" ]
+Node15 -> Node17 [  label="वाक्यकर्म"  dir="back" ]
+Node16 -> Node15 [  label="वाक्यकर्म_द्योतकः"  dir="back" ]
+Node17 -> Node20 [  label="पूर्वकालः"  dir="back" ]
+Node18 -> Node20 [  label="कर्ता"  dir="back" ]
+Node19 -> Node20 [  label="कर्म"  dir="back" ]
+Node21 -> Node2 [  label="कर्ता"  dir="back" ]
+}

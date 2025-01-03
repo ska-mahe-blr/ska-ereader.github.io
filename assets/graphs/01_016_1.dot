@@ -1,0 +1,35 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3 [style=filled, color="" label = "कुरुराजः(3)"]
+Node4 [style=filled, color="" label = "युधिष्ठिरः(4)"]
+Node7 [style=filled, color="" label = "महातेजाः(7)"]
+
+}
+
+subgraph cluster_2{
+Node5 [style=filled, color="" label = "सर्वान्(5)"]
+Node6 [style=filled, color="" label = "कामान्(6)"]
+
+}
+Node1 [style=filled, color="" label = "विहारयात्रासु(1)"]
+Node8 [style=filled, color="" label = "प्रददौ(8)"]
+Node2 [style=filled, color="" label = "पुनः(2)"]
+Node4 [style=filled, color="" label = "युधिष्ठिरः(4)"]
+Node6 [style=filled, color="" label = "कामान्(6)"]
+Node [style=filled, color="" label = ""]
+Node9 [style=filled, color="" label = "अम्बिकासुते(अम्बिकासुताय)(9)"]
+/* Start of Relations section */
+
+Node1 -> Node8 [  label="कालाधिकरणम्"  dir="back" ]
+Node2 -> Node8 [  label="सम्बन्धः"  dir="back" ]
+Node3 -> Node4 [  label="विशेषणम्"  dir="back" ]
+Node4 -> Node8 [  label="कर्ता"  dir="back" ]
+Node5 -> Node6 [  label="विशेषणम्"  dir="back" ]
+Node6 -> Node8 [  label="कर्म"  dir="back" ]
+Node7 -> Node4 [  label="विशेषणम्"  dir="back" ]
+Node9 -> Node8 [  label="सम्प्रदानम्"  dir="back" ]
+}

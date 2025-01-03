@@ -1,0 +1,48 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_1 [style=filled, color="#00BFFF" label = "सः(1.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "राजा(2.1)"]
+Node3_2 [style=filled, color="#00BFFF" label = "तेजाः(3.2)"]
+Node4_1 [style=filled, color="#00BFFF" label = "वृद्धः(4.1)"]
+Node5_3 [style=filled, color="#00BFFF" label = "उद्वहः(5.3)"]
+
+}
+
+subgraph cluster_2{
+Node9_1 [style=filled, color="#FF99FF" label = "किञ्चित्(9.1)"]
+Node10_1 [style=filled, color="#93DB70" label = "अप्रियं(10.1)"]
+
+}
+Node2_1 [style=filled, color="#00BFFF" label = "राजा(2.1)"]
+Node7_1 [style=filled, color="#FF1975" label = "अपश्यत(अपश्यत्)(7.1)"]
+Node3_1 [style=filled, color="#FFFF00" label = "सुमहत्-(3.1)"]
+Node3_2 [style=filled, color="#00BFFF" label = "तेजाः(3.2)"]
+Node5_1 [style=filled, color="#FFFF00" label = "कुरु-(5.1)"]
+Node5_2 [style=filled, color="#FFFF00" label = "कुल-(5.2)"]
+Node5_3 [style=filled, color="#00BFFF" label = "उद्वहः(5.3)"]
+Node6_1 [style=filled, color="#FF99FF" label = "न(6.1)"]
+Node2 [style=filled, color="" label = ""]
+Node [style=filled, color="" label = ""]
+Node8_1 [style=filled, color="#FF99FF" label = "तदा(8.1)"]
+Node10_1 [style=filled, color="#93DB70" label = "अप्रियं(10.1)"]
+Node11_1 [style=filled, color="#C6E2EB" label = "पाण्डुनन्दने(11.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node7_1 [  label="कर्ता"  dir="back" ]
+Node3_1 -> Node3_2 [  label="Bs6"  dir="back" ]
+Node3_2 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node5_2 [  label="T6"  dir="back" ]
+Node5_2 -> Node5_3 [  label="T6"  dir="back" ]
+Node5_3 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node7_1 [  label="प्रतिषेधः"  dir="back" ]
+Node8_1 -> Node7_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node9_1 -> Node10_1 [  label="विशेषणम्"  dir="back" ]
+Node10_1 -> Node7_1 [  label="कर्म"  dir="back" ]
+Node11_1 -> Node7_1 [  label="विषयाधिकरणम्"  dir="back" ]
+}

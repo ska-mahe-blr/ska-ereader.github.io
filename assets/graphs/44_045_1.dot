@@ -1,0 +1,47 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_2 [style=filled, color="#40E0D0" label = "आत्मना(1.2)"]
+Node2_2 [style=filled, color="#40E0D0" label = "राज्ञा(2.2)"]
+
+}
+
+subgraph cluster_2{
+Node4_1 [style=filled, color="#00BFFF" label = "उक्तः(4.1)"]
+Node6_2 [style=filled, color="#00BFFF" label = "ऋषिः(6.2)"]
+Node5_1 [style=filled, color="#00BFFF" label = "सः(5.1)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "महत्-(1.1)"]
+Node1_2 [style=filled, color="#40E0D0" label = "आत्मना(1.2)"]
+Node2_1 [style=filled, color="#FFFF00" label = "धर्म-(2.1)"]
+Node2_2 [style=filled, color="#40E0D0" label = "राज्ञा(2.2)"]
+Node4_1 [style=filled, color="#00BFFF" label = "उक्तः(4.1)"]
+Node3_1 [style=filled, color="#FF99FF" label = "एवम्(3.1)"]
+Node6_1 [style=filled, color="#FFFF00" label = "राज-(6.1)"]
+Node6_2 [style=filled, color="#00BFFF" label = "ऋषिः(6.2)"]
+Node10_1 [style=filled, color="#FF1975" label = "अनुजज्ञे(10.1)"]
+Node9_1 [style=filled, color="#FF99FF" label = "अभिनन्द्य(9.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "जय-(7.1)"]
+Node7_2 [style=filled, color="#40E0D0" label = "आशीर्भिः(7.2)"]
+Node8_1 [style=filled, color="#93DB70" label = "युधिष्ठिरम्(8.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="समासः"  dir="back" ]
+Node1_2 -> Node2_2 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node2_2 [  label="समासः"  dir="back" ]
+Node2_2 -> Node4_1 [  label="कर्ता"  dir="back" ]
+Node3_1 -> Node4_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node4_1 -> Node6_2 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node6_2 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node6_2 [  label="समासः"  dir="back" ]
+Node6_2 -> Node10_1 [  label="कर्ता"  dir="back" ]
+Node6_2 -> Node9_1 [ style=dotted label="कर्ता"  dir="back" ]
+Node7_1 -> Node7_2 [  label="समासः"  dir="back" ]
+Node7_2 -> Node9_1 [  label="करणं"  dir="back" ]
+Node8_1 -> Node9_1 [  label="कर्म"  dir="back" ]
+Node9_1 -> Node10_1 [  label="पूर्वकालः"  dir="back" ]
+}

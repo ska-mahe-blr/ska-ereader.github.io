@@ -1,0 +1,52 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1 [style=filled, color="#93DB70" label = "कियन्तं(1)"]
+Node4 [style=filled, color="#93DB70" label = "कालं(4)"]
+
+}
+
+subgraph cluster_2{
+Node5 [style=filled, color="#00BFFF" label = "ते(5)"]
+Node6 [style=filled, color="#00BFFF" label = "पितरः(6)"]
+Node8 [style=filled, color="#00BFFF" label = "पूर्वकाः(8)"]
+Node11 [style=filled, color="#00BFFF" label = "महात्मानः(11)"]
+
+}
+Node2 [style=filled, color="#FF99FF" label = "च(2)"]
+Node4 [style=filled, color="#93DB70" label = "कालं(4)"]
+Node3 [style=filled, color="#FF99FF" label = "एव(3)"]
+Node9_1 [style=filled, color="#00BFFF" label = "स्थिताः(9.1)"]
+Node6 [style=filled, color="#00BFFF" label = "पितरः(6)"]
+Node9_2 [style=filled, color="#FF1975" label = "(आसन्)(9.2)"]
+Node7 [style=filled, color="#87CEEB" label = "मम(7)"]
+Node8 [style=filled, color="#00BFFF" label = "पूर्वकाः(8)"]
+Node5 [style=filled, color="#00BFFF" label = "ते(5)"]
+Node10 [style=filled, color="#C6E2EB" label = "राज्ये(10)"]
+Node12 [style=filled, color="#00BFFF" label = "तत्(12)"]
+Node14 [style=filled, color="#FF99FF" label = "व्याख्यातुम्(14)"]
+Node13 [style=filled, color="#B0E2FF" label = "मे(13)"]
+Node15 [style=filled, color="#FF1975" label = "अर्हसि(15)"]
+Node16 [style=filled, color="#00BFFF" label = "(त्वम्)(16)"]
+/* Start of Relations section */
+
+Node1 -> Node4 [  label="विशेषणम्"  dir="back" ]
+Node2 -> Node4 [  label="सम्बन्धः"  dir="back" ]
+Node3 -> Node4 [  label="सम्बन्धः"  dir="back" ]
+Node4 -> Node9_1 [  label="कर्म"  dir="back" ]
+Node5 -> Node6 [  label="विशेषणम्"  dir="back" ]
+Node6 -> Node9_2 [  label="कर्ता"  dir="back" ]
+Node7 -> Node8 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node8 -> Node6 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node9_2 [  label="विधेयविशेषणम्"  dir="back" ]
+Node10 -> Node9_1 [  label="देशाधिकरणम्"  dir="back" ]
+Node11 -> Node6 [  label="विशेषणम्"  dir="back" ]
+Node12 -> Node14 [  label="कर्म"  dir="back" ]
+Node12 -> Node9_2 [ style=dotted label="सम्बन्धः"  dir="back" ]
+Node13 -> Node14 [  label="सम्प्रदानम्"  dir="back" ]
+Node14 -> Node15 [  label="सहायकक्रिया"  dir="back" ]
+Node16 -> Node15 [  label="कर्ता"  dir="back" ]
+}

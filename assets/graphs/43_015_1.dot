@@ -1,0 +1,45 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_2 [style=filled, color="#93DB70" label = "विनाशनम्(1.2)"]
+Node2_1 [style=filled, color="#93DB70" label = "(वचनम्)(2.1)"]
+
+}
+
+subgraph cluster_2{
+Node4_2 [style=filled, color="#00BFFF" label = "विपुलः(4.2)"]
+Node5_1 [style=filled, color="#00BFFF" label = "धर्मः(5.1)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "पाप-(1.1)"]
+Node1_2 [style=filled, color="#93DB70" label = "विनाशनम्(1.2)"]
+Node2_1 [style=filled, color="#93DB70" label = "(वचनम्)(2.1)"]
+Node3_1 [style=filled, color="#FF99FF" label = "श्रुत्वा(3.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "प्राप्तः(6.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "सु-(4.1)"]
+Node4_2 [style=filled, color="#00BFFF" label = "विपुलः(4.2)"]
+Node5_1 [style=filled, color="#00BFFF" label = "धर्मः(5.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "उदार-(7.1)"]
+Node7_2 [style=filled, color="#FFFF00" label = "जन-(7.2)"]
+Node7_3 [style=filled, color="#B4FFB4" label = "दर्शनात्(7.3)"]
+Node9_1 [style=filled, color="#00BFFF" label = "विमुक्तः(9.1)"]
+Node8_1 [style=filled, color="#FFFF00" label = "हृदय-(8.1)"]
+Node8_2 [style=filled, color="#00BFFF" label = "ग्रन्थिः(8.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="समासः"  dir="back" ]
+Node1_2 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node3_1 [  label="कर्म"  dir="back" ]
+Node3_1 -> Node6_1 [  label="पूर्वकालः"  dir="back" ]
+Node4_1 -> Node4_2 [  label="समासः"  dir="back" ]
+Node4_2 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node6_1 [  label="कर्म"  dir="back" ]
+Node7_1 -> Node7_2 [  label="समासः"  dir="back" ]
+Node7_2 -> Node7_3 [  label="समासः"  dir="back" ]
+Node7_3 -> Node9_1 [  label="हेतुः"  dir="back" ]
+Node8_1 -> Node8_2 [  label="समासः"  dir="back" ]
+Node8_2 -> Node9_1 [  label="कर्म"  dir="back" ]
+}

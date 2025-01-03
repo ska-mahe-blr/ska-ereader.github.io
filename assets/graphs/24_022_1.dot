@@ -1,0 +1,43 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_4 [style=filled, color="#00BFFF" label = "मुख्या(1.4)"]
+Node6_1 [style=filled, color="#00BFFF" label = "रजनी(6.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "सा(2.1)"]
+Node3_3 [style=filled, color="#00BFFF" label = "पावका(3.3)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "प्र-(1.1)"]
+Node1_2 [style=filled, color="#FFFF00" label = "अधीत-(1.2)"]
+Node1_3 [style=filled, color="#FFFF00" label = "द्विज-(1.3)"]
+Node1_4 [style=filled, color="#00BFFF" label = "मुख्या(1.4)"]
+Node3_1 [style=filled, color="#FFFF00" label = "सम्-(3.1)"]
+Node3_2 [style=filled, color="#FFFF00" label = "प्रज्वालित-(3.2)"]
+Node3_3 [style=filled, color="#00BFFF" label = "पावका(3.3)"]
+Node4_1 [style=filled, color="#FF1975" label = "बभूव(4.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "रजनी(6.1)"]
+Node5_1 [style=filled, color="#87CEEB" label = "तेषाम्(5.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "ब्राह्मी(7.1)"]
+Node8_1 [style=filled, color="#FF99FF" label = "इव(8.1)"]
+Node9_1 [style=filled, color="#FFFF00" label = "प्रीति-(9.1)"]
+Node9_2 [style=filled, color="#00BFFF" label = "वर्धनी(9.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="समासः"  dir="back" ]
+Node1_2 -> Node1_3 [  label="समासः"  dir="back" ]
+Node1_3 -> Node1_4 [  label="समासः"  dir="back" ]
+Node1_4 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node3_2 [  label="समासः"  dir="back" ]
+Node3_2 -> Node3_3 [  label="समासः"  dir="back" ]
+Node3_3 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node6_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node6_1 -> Node4_1 [  label="कर्ता"  dir="back" ]
+Node7_1 -> Node6_1 [  label="उपमानम्"  dir="back" ]
+Node8_1 -> Node7_1 [  label="उपमान_द्योतकः"  dir="back" ]
+Node9_1 -> Node9_2 [  label="समासः"  dir="back" ]
+Node9_2 -> Node6_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+}

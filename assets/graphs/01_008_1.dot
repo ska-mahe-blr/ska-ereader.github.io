@@ -1,0 +1,16 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1 [style=filled, color="#00BFFF" label = "कुन्तिभोजसुता(1)"]
+Node5 [style=filled, color="#FF1975" label = "अन्ववर्तत(5)"]
+Node2 [style=filled, color="#FF99FF" label = "च(2)"]
+Node3 [style=filled, color="#FF99FF" label = "एव(3)"]
+Node4 [style=filled, color="#93DB70" label = "गान्धारीम्(4)"]
+/* Start of Relations section */
+
+Node1 -> Node5 [  label="कर्ता"  dir="back" ]
+Node2 -> Node1 [  label="सम्बन्धः"  dir="back" ]
+Node3 -> Node2 [  label="सम्बन्धः"  dir="back" ]
+Node4 -> Node5 [  label="कर्म"  dir="back" ]
+}

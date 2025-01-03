@@ -1,0 +1,40 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_3 [style=filled, color="#93DB70" label = "संवृद्धाम्(1.3)"]
+Node5_1 [style=filled, color="#93DB70" label = "जननीम्(5.1)"]
+Node2_3 [style=filled, color="#93DB70" label = "भागिनीम्(2.3)"]
+Node6_1 [style=filled, color="#93DB70" label = "श्रान्ताम्(6.1)"]
+Node8_2 [style=filled, color="#93DB70" label = "दुःखिताम्(8.2)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "प्रासाद-(1.1)"]
+Node1_2 [style=filled, color="#FFFF00" label = "हर्म्य-(1.2)"]
+Node1_3 [style=filled, color="#93DB70" label = "संवृद्धाम्(1.3)"]
+Node2_1 [style=filled, color="#FFFF00" label = "अत्यन्त-(2.1)"]
+Node2_2 [style=filled, color="#FFFF00" label = "सुख-(2.2)"]
+Node2_3 [style=filled, color="#93DB70" label = "भागिनीम्(2.3)"]
+Node3_1 [style=filled, color="#FF99FF" label = "कदा(3.1)"]
+Node7_1 [style=filled, color="#FF1975" label = "द्रक्ष्यामि(7.1)"]
+Node4_1 [style=filled, color="#FF99FF" label = "तु(4.1)"]
+Node5_1 [style=filled, color="#93DB70" label = "जननीम्(5.1)"]
+Node8_1 [style=filled, color="#FFFF00" label = "भृश-(8.1)"]
+Node8_2 [style=filled, color="#93DB70" label = "दुःखिताम्(8.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="द्वन्द्वसमासः"  dir="back" ]
+Node1_2 -> Node1_3 [  label="सप्तमीतत्पुरुषः"  dir="back" ]
+Node1_3 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node2_2 [  label="समासः"  dir="back" ]
+Node2_2 -> Node2_3 [  label="समासः"  dir="back" ]
+Node2_3 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node7_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node4_1 -> Node3_1 [  label="सम्बन्धः"  dir="back" ]
+Node5_1 -> Node7_1 [  label="कर्म"  dir="back" ]
+Node6_1 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node8_2 [  label="समासः"  dir="back" ]
+Node8_2 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+}

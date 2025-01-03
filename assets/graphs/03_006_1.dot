@@ -1,0 +1,105 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1 [style=filled, color="#93DB70" label = "यद्(1)"]
+Node13 [style=filled, color="#93DB70" label = "कार्यं(13)"]
+Node5 [style=filled, color="#FF99FF" label = "किञ्चित्(5)"]
+Node11 [style=filled, color="#93DB70" label = "लघुः(11)"]
+
+}
+
+subgraph cluster_2{
+Node6 [style=filled, color="#00BFFF" label = "सः(6)"]
+Node7 [style=filled, color="#00BFFF" label = "धृतराष्ट्रः(7)"]
+Node8 [style=filled, color="#00BFFF" label = "नराधिपः(8)"]
+
+}
+
+subgraph cluster_3{
+Node7 [style=filled, color="#00BFFF" label = "धृतराष्ट्रः(7)"]
+Node14 [style=filled, color="#00BFFF" label = "गान्धारी(14)"]
+Node8 [style=filled, color="#00BFFF" label = "नराधिपः(8)"]
+Node16 [style=filled, color="#00BFFF" label = "यशस्विनी(16)"]
+
+}
+
+subgraph cluster_4{
+Node9 [style=filled, color="#93DB70" label = "गुरुः(9)"]
+Node11 [style=filled, color="#93DB70" label = "लघुः(11)"]
+
+}
+
+subgraph cluster_5{
+Node18 [style=filled, color="#00BFFF" label = "परवीरहा(18)"]
+Node22 [style=filled, color="#00BFFF" label = "राजा(22)"]
+Node20 [style=filled, color="#00BFFF" label = "धुरन्धरः(20)"]
+Node21 [style=filled, color="#00BFFF" label = "सः(21)"]
+
+}
+
+subgraph cluster_6{
+Node23 [style=filled, color="#93DB70" label = "तत्(23)"]
+Node24 [style=filled, color="#93DB70" label = "वचः(24)"]
+
+}
+Node2 [style=filled, color="#93DB70" label = "यद्(2)"]
+Node1 [style=filled, color="#93DB70" label = "यद्(1)"]
+Node3 [style=filled, color="#FF1975" label = "ब्रूते(3)"]
+Node14 [style=filled, color="#00BFFF" label = "गान्धारी(14)"]
+Node [style=filled, color="" label = ""]
+Node4 [style=filled, color="#FF99FF" label = "च(4)"]
+Node5 [style=filled, color="#FF99FF" label = "किञ्चित्(5)"]
+Node10 [style=filled, color="#FF99FF" label = "वा(10)"]
+Node9 [style=filled, color="#93DB70" label = "गुरुः(9)"]
+Node12 [style=filled, color="#FF99FF" label = "वा(12)"]
+Node13 [style=filled, color="#93DB70" label = "कार्यं(13)"]
+Node15 [style=filled, color="#FF99FF" label = "च(15)"]
+Node17 [style=filled, color="#6FFFC3" label = "महाराज(17)"]
+Node28_2 [style=filled, color="#FF99FF" label = "इति(28.2)"]
+Node19 [style=filled, color="#87CEEB" label = "पाण्डवानाम्(19)"]
+Node20 [style=filled, color="#00BFFF" label = "धुरन्धरः(20)"]
+Node22 [style=filled, color="#00BFFF" label = "राजा(22)"]
+Node28 [style=filled, color="" label = ""]
+Node24 [style=filled, color="#93DB70" label = "वचः(24)"]
+Node25 [style=filled, color="#FF1975" label = "पूजयित्वा(25)"]
+Node26 [style=filled, color="#93DB70" label = "तत्(26)"]
+Node27 [style=filled, color="#93DB70" label = "तत्(27)"]
+Node28_1 [style=filled, color="#FF1975" label = "अकार्षीत्(28.1)"]
+Node28_3 [style=filled, color="#FF1975" label = "जानीहि(28.3)"]
+Node28_4 [style=filled, color="#00BFFF" label = "त्वम्(28.4)"]
+/* Start of Relations section */
+
+Node1 -> Node13 [  label="विशेषणम्"  dir="back" ]
+Node2 -> Node1 [  label="वीप्सा"  dir="back" ]
+Node4 -> Node5 [  label="सम्बन्धः"  dir="back" ]
+Node5 -> Node13 [  label="विशेषणम्"  dir="back" ]
+Node6 -> Node7 [  label="विशेषणम्"  dir="back" ]
+Node7 -> Node14 [  label="समुच्चितः"  dir="back" ]
+Node8 -> Node7 [  label="विशेषणम्"  dir="back" ]
+Node9 -> Node11 [  label="अन्यतरः"  dir="back" ]
+Node10 -> Node9 [  label="अन्यतर_द्योतकः"  dir="back" ]
+Node11 -> Node13 [  label="विशेषणम्"  dir="back" ]
+Node12 -> Node9 [  label="अन्यतर_द्योतकः"  dir="back" ]
+Node13 -> Node3 [  label="कर्म"  dir="back" ]
+Node14 -> Node3 [  label="कर्ता"  dir="back" ]
+Node15 -> Node14 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node16 -> Node14 [  label="विशेषणम्"  dir="back" ]
+Node17 -> Node28_2 [  label="सम्बोध्यः"  dir="back" ]
+Node18 -> Node22 [  label="विशेषणम्"  dir="back" ]
+Node19 -> Node20 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node20 -> Node22 [  label="विशेषणम्"  dir="back" ]
+Node21 -> Node22 [  label="विशेषणम्"  dir="back" ]
+Node22 -> Node28 [  label="कर्ता"  dir="back" ]
+Node23 -> Node24 [  label="विशेषणम्"  dir="back" ]
+Node24 -> Node25 [  label="कर्म"  dir="back" ]
+Node25 -> Node28 [  label="पूर्वकालः"  dir="back" ]
+Node26 -> Node28 [  label="कर्म"  dir="back" ]
+Node26 -> Node1 [ style=dotted label=" कर्मसमानाधिकरणम्"  dir="back" ]
+Node27 -> Node26 [  label="वीप्सा"  dir="back" ]
+Node28_1 -> Node28_2 [ style=dotted label="कर्म"  dir="back" ]
+Node28_2 -> Node28_1 [  label="वाक्यकर्मद्योतकः"  dir="back" ]
+Node28_4 -> Node28_3 [  label="कर्ता"  dir="back" ]
+}

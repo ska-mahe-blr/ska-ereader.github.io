@@ -1,0 +1,43 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node12_1 [style=filled, color="#00BFFF" label = "तत्(12.1)"]
+Node14_1 [style=filled, color="#00BFFF" label = "समुपस्थितम्(14.1)"]
+Node13_1 [style=filled, color="#00BFFF" label = "इदम्(13.1)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "न(1.1)"]
+Node6_1 [style=filled, color="#FF1975" label = "अशकम्(6.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "हि(2.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "त्वा(3.1)"]
+Node7_1 [style=filled, color="#FF99FF" label = "वक्तुम्(7.1)"]
+Node4_1 [style=filled, color="#40E0D0" label = "गौरवेण(4.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "अहम्(5.1)"]
+Node [style=filled, color="" label = "()"]
+Node8_1 [style=filled, color="#40E0D0" label = "आत्मना(8.1)"]
+Node9_1 [style=filled, color="#93DB70" label = "गमनं(9.1)"]
+Node10_1 [style=filled, color="#FF99FF" label = "प्रति(10.1)"]
+Node11_1 [style=filled, color="#FFFF00" label = "राज-(11.1)"]
+Node11_2 [style=filled, color="#6FFFC3" label = "इन्द्र(11.2)"]
+Node14_1 [style=filled, color="#00BFFF" label = "समुपस्थितम्(14.1)"]
+Node15_1 [style=filled, color="#FF1975" label = "(अस्ति)(15.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node6_1 [  label="प्रतिषेधः"  dir="back" ]
+Node2_1 -> Node6_1 [  label="कारण_द्योतकः"  dir="back" ]
+Node3_1 -> Node7_1 [  label="कर्म"  dir="back" ]
+Node4_1 -> Node6_1 [  label="हेतुः"  dir="back" ]
+Node5_1 -> Node6_1 [  label="कर्ता"  dir="back" ]
+Node7_1 -> Node6_1 [  label="प्रयोजनम्"  dir="back" ]
+Node8_1 -> Node7_1 [  label="करणम्"  dir="back" ]
+Node9_1 -> Node7_1 [  label="कर्म"  dir="back" ]
+Node10_1 -> Node9_1 [  label="आभिमुख्यम्"  dir="back" ]
+Node11_1 -> Node11_2 [  label="समासः"  dir="back" ]
+Node11_2 -> Node6_1 [  label="सम्बोध्यः"  dir="back" ]
+Node12_1 -> Node14_1 [  label="विशेषणम्"  dir="back" ]
+Node13_1 -> Node14_1 [  label="विशेषणम्"  dir="back" ]
+Node14_1 -> Node15_1 [  label="कर्ता"  dir="back" ]
+}

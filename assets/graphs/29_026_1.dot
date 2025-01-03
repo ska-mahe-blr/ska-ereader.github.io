@@ -1,0 +1,45 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_1 [style=filled, color="#00BFFF" label = "सः(1.1)"]
+Node8_2 [style=filled, color="#00BFFF" label = "पतिः(8.2)"]
+
+}
+
+subgraph cluster_2{
+Node9_1 [style=filled, color="#93DB70" label = "पञ्च(9.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "दिवसान्(3.1)"]
+
+}
+Node2_1 [style=filled, color="#FF99FF" label = "बहिः(2.1)"]
+Node7_1 [style=filled, color="#FF1975" label = "न्यवसन्(7.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "दिवसान्(3.1)"]
+Node4_1 [style=filled, color="#FF99FF" label = "एवं(4.1)"]
+Node5_1 [style=filled, color="#93DB70" label = "जनौघं(5.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "परिपालयन्(6.1)"]
+Node8_2 [style=filled, color="#00BFFF" label = "पतिः(8.2)"]
+Node [style=filled, color="" label = "()"]
+Node8_1 [style=filled, color="#FFFF00" label = "नृ-(8.1)"]
+Node11_1 [style=filled, color="#FF1975" label = "अगच्छत्(11.1)"]
+Node10_1 [style=filled, color="#FF99FF" label = "ततः(10.1)"]
+Node12_1 [style=filled, color="#93DB70" label = "वनं(12.1)"]
+Node13_1 [style=filled, color="#FF99FF" label = "प्रति(13.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node8_2 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node7_1 [  label="देशाधिकरणम्"  dir="back" ]
+Node3_1 -> Node7_1 [  label="अत्यन्तसंयोग_सम्बन्धः"  dir="back" ]
+Node4_1 -> Node7_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node5_1 -> Node6_1 [  label="कर्म"  dir="back" ]
+Node6_1 -> Node7_1 [  label="वर्तमानसमानकालः"  dir="back" ]
+Node8_1 -> Node8_2 [  label="षष्ठीतत्पुरुषः"  dir="back" ]
+Node8_2 -> Node6_1 [  label="कर्ता"  dir="back" ]
+Node8_2 -> Node11_1 [ style=dotted label="कर्ता"  dir="back" ]
+Node9_1 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node10_1 -> Node11_1 [  label="सम्बन्धः"  dir="back" ]
+Node12_1 -> Node11_1 [  label="आभिमुख्यम्"  dir="back" ]
+Node13_1 -> Node12_1 [  label="अभिमुख्य_द्योतकः"  dir="back" ]
+}

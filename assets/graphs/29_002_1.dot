@@ -1,0 +1,40 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#00BFFF" label = "ये(1.1)"]
+Node6_1 [style=filled, color="#FF1975" label = "अभवन्(6.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "ते(7.1)"]
+Node2_1 [style=filled, color="#FFFF00" label = "राज-(2.1)"]
+Node2_2 [style=filled, color="#C6E2EB" label = "कार्येषु(2.2)"]
+Node3_1 [style=filled, color="#FF99FF" label = "पुरा(3.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "वि-(4.1)"]
+Node4_2 [style=filled, color="#00BFFF" label = "आसक्ताः(4.2)"]
+Node5_1 [style=filled, color="#FF99FF" label = "नित्यशः(5.1)"]
+Node [style=filled, color="" label = "()"]
+Node11_1 [style=filled, color="#FF1975" label = "अकार्षुः(11.1)"]
+Node8_1 [style=filled, color="#FFFF00" label = "राज-(8.1)"]
+Node8_2 [style=filled, color="#93DB70" label = "कार्याणि(8.2)"]
+Node9_1 [style=filled, color="#FF99FF" label = "तदा(9.1)"]
+Node10_1 [style=filled, color="#FF99FF" label = "न(10.1)"]
+Node12_1 [style=filled, color="#FF99FF" label = "सर्वतः(12.1)"]
+Node13_1 [style=filled, color="#C6E2EB" label = "पुरे(13.1)"]
+{rank = same; Node1_1; Node7_1;}
+/* Start of Relations section */
+
+Node1_1 -> Node6_1 [  label="कर्ता"  dir="back" ]
+Node1_1 -> Node7_1 [ style=dashed color="red" label="नित्य_सम्बन्धः1"  dir="both" ]
+Node2_1 -> Node2_2 [  label="षष्ठीतत्पुरुषः"  dir="back" ]
+Node2_2 -> Node6_1 [  label="विषयाधिकरणम्"  dir="back" ]
+Node3_1 -> Node6_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node4_1 -> Node4_2 [  label="समासः"  dir="back" ]
+Node4_2 -> Node1_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node5_1 -> Node6_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node7_1 -> Node11_1 [  label="कर्ता"  dir="back" ]
+Node8_1 -> Node8_2 [  label="षष्ठीतत्पुरुषः"  dir="back" ]
+Node8_2 -> Node11_1 [  label="कर्म"  dir="back" ]
+Node9_1 -> Node11_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node10_1 -> Node11_1 [  label="प्रतिषेधः"  dir="back" ]
+Node12_1 -> Node11_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node13_1 -> Node11_1 [  label="देशाधिकरणम्"  dir="back" ]
+}

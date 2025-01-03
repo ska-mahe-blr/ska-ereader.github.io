@@ -1,0 +1,43 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node5_2 [style=filled, color="#40E0D0" label = "प्रमुखैः(5.2)"]
+Node8_1 [style=filled, color="#40E0D0" label = "नरैः(8.1)"]
+Node7_3 [style=filled, color="#40E0D0" label = "उपमैः(7.3)"]
+
+}
+
+subgraph cluster_2{
+Node6_1 [style=filled, color="#93DB70" label = "गुप्ताम्(6.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "सेनाम्(3.1)"]
+
+}
+Node1_1 [style=filled, color="#FF1975" label = "आज्ञापयामास(1.1)"]
+Node4_2 [style=filled, color="#00BFFF" label = "सत्तमः(4.2)"]
+Node2_1 [style=filled, color="#FF99FF" label = "ततः(2.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "सेनाम्(3.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "भरत-(4.1)"]
+Node5_1 [style=filled, color="#FFFF00" label = "अर्जुन-(5.1)"]
+Node5_2 [style=filled, color="#40E0D0" label = "प्रमुखैः(5.2)"]
+Node7_1 [style=filled, color="#FFFF00" label = "लोक-(7.1)"]
+Node7_2 [style=filled, color="#FFFF00" label = "पाल-(7.2)"]
+Node7_3 [style=filled, color="#40E0D0" label = "उपमैः(7.3)"]
+Node8_1 [style=filled, color="#40E0D0" label = "नरैः(8.1)"]
+Node6_1 [style=filled, color="#93DB70" label = "गुप्ताम्(6.1)"]
+/* Start of Relations section */
+
+Node2_1 -> Node1_1 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node1_1 [  label="कर्म"  dir="back" ]
+Node4_1 -> Node4_2 [  label="समासः"  dir="back" ]
+Node4_2 -> Node1_1 [  label="कर्ता"  dir="back" ]
+Node5_1 -> Node5_2 [  label="समासः"  dir="back" ]
+Node5_2 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node7_2 [  label="समासः"  dir="back" ]
+Node7_2 -> Node7_3 [  label="समासः"  dir="back" ]
+Node7_3 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node6_1 [  label="कर्ता"  dir="back" ]
+}

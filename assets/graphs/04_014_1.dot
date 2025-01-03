@@ -1,0 +1,24 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node4 [style=filled, color="#00BFFF" label = "चित्तज्ञौ(4)"]
+Node1 [style=filled, color="#00BFFF" label = "माद्रीपुत्रौ(1)"]
+
+}
+Node1 [style=filled, color="#00BFFF" label = "माद्रीपुत्रौ(1)"]
+Node3 [style=filled, color="#FF1975" label = "अन्वमोदताम्(3)"]
+Node2 [style=filled, color="#87CEEB" label = "भीमस्य(2)"]
+Node4 [style=filled, color="#00BFFF" label = "चित्तज्ञौ(4)"]
+Node6 [style=filled, color="" label = ".(6)"]
+Node [style=filled, color="" label = ""]
+Node5 [style=filled, color="#FF99FF" label = "च(5)"]
+/* Start of Relations section */
+
+Node1 -> Node3 [  label="कर्ता"  dir="back" ]
+Node2 -> Node4 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node4 -> Node1 [  label="विशेषणम्"  dir="back" ]
+Node5 -> Node3 [  label="सम्बन्धः"  dir="back" ]
+}

@@ -1,0 +1,54 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node2_1 [style=filled, color="#00BFFF" label = "सः(2.1)"]
+Node4_2 [style=filled, color="#00BFFF" label = "पालः(4.2)"]
+Node5_2 [style=filled, color="#00BFFF" label = "पुत्रः(5.2)"]
+Node6_2 [style=filled, color="#00BFFF" label = "आश्रयः(6.2)"]
+
+}
+
+subgraph cluster_2{
+Node12_3 [style=filled, color="#C6E2EB" label = "सेविते(12.3)"]
+Node11_1 [style=filled, color="#C6E2EB" label = "वने(11.1)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "कथम्(1.1)"]
+Node9_1 [style=filled, color="#FF1975" label = "वसति(9.1)"]
+Node3_1 [style=filled, color="#FF99FF" label = "च(3.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "सः(2.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "मही-(4.1)"]
+Node4_2 [style=filled, color="#00BFFF" label = "पालः(4.2)"]
+Node5_1 [style=filled, color="#FFFF00" label = "हत-(5.1)"]
+Node5_2 [style=filled, color="#00BFFF" label = "पुत्रः(5.2)"]
+Node6_1 [style=filled, color="#FFFF00" label = "निर्-(6.1)"]
+Node6_2 [style=filled, color="#00BFFF" label = "आश्रयः(6.2)"]
+Node7_1 [style=filled, color="#40E0D0" label = "पत्न्या(7.1)"]
+Node8_1 [style=filled, color="#FF99FF" label = "सह(8.1)"]
+Node10_1 [style=filled, color="#00BFFF" label = "एकः(10.1)"]
+Node11_1 [style=filled, color="#C6E2EB" label = "वने(11.1)"]
+Node12_1 [style=filled, color="#FFFF00" label = "श्वा-(12.1)"]
+Node12_2 [style=filled, color="#FFFF00" label = "पद-(12.2)"]
+Node12_3 [style=filled, color="#C6E2EB" label = "सेविते(12.3)"]
+/* Start of Relations section */
+
+Node1_1 -> Node9_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node2_1 -> Node4_2 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node2_1 [  label="सम्बन्धः"  dir="back" ]
+Node4_1 -> Node4_2 [  label="उपपदसमासः"  dir="back" ]
+Node4_2 -> Node9_1 [  label="कर्ता"  dir="back" ]
+Node5_1 -> Node5_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node5_2 -> Node4_2 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node6_2 [  label="समासः"  dir="back" ]
+Node6_2 -> Node4_2 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node9_1 [  label="सहार्थः"  dir="back" ]
+Node8_1 -> Node7_1 [  label="सहार्थ_द्योतकः"  dir="back" ]
+Node10_1 -> Node4_2 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node11_1 -> Node9_1 [  label="देशाधिकरणम्"  dir="back" ]
+Node12_1 -> Node12_2 [  label="षष्ठीतत्पुरुषः"  dir="back" ]
+Node12_2 -> Node12_3 [  label="तृतीयातत्पुरुषः"  dir="back" ]
+Node12_3 -> Node11_1 [  label="विशेषणम्"  dir="back" ]
+}

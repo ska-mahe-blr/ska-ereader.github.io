@@ -1,0 +1,53 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3 [style=filled, color="#00BFFF" label = "यत्(3)"]
+Node6 [style=filled, color="#00BFFF" label = "पापम्(6)"]
+Node5 [style=filled, color="#FF99FF" label = "किञ्चित्(5)"]
+
+}
+
+subgraph cluster_2{
+Node9 [style=filled, color="#00BFFF" label = "सः(9)"]
+Node10 [style=filled, color="#00BFFF" label = "राजा(10)"]
+
+}
+
+subgraph cluster_3{
+Node13 [style=filled, color="#93DB70" label = "तम्(13)"]
+Node14 [style=filled, color="#93DB70" label = "नृपम्(14)"]
+
+}
+Node1 [style=filled, color="#FF99FF" label = "पुरा(1)"]
+Node7 [style=filled, color="#00BFFF" label = "कृतम्(7)"]
+Node2 [style=filled, color="#40E0D0" label = "धृतराष्ट्रसुतैः(2)"]
+Node4 [style=filled, color="#FF99FF" label = "च(4)"]
+Node3 [style=filled, color="#00BFFF" label = "यत्(3)"]
+Node6 [style=filled, color="#00BFFF" label = "पापम्(6)"]
+Node16 [style=filled, color="#FF1975" label = "(आसीत्)(16)"]
+Node8 [style=filled, color="#93DB70" label = "तत्(8)"]
+Node12 [style=filled, color="#FF99FF" label = "अकृत्वा(12)"]
+Node10 [style=filled, color="#00BFFF" label = "राजा(10)"]
+Node15 [style=filled, color="#FF1975" label = "अन्ववर्तत(15)"]
+Node11 [style=filled, color="#C6E2EB" label = "हृदि(11)"]
+Node14 [style=filled, color="#93DB70" label = "नृपम्(14)"]
+/* Start of Relations section */
+
+Node1 -> Node7 [  label="कालाधिकरणम्"  dir="back" ]
+Node2 -> Node7 [  label="कर्ता"  dir="back" ]
+Node3 -> Node6 [  label="विशेषणम्"  dir="back" ]
+Node4 -> Node3 [  label="सम्बन्धः"  dir="back" ]
+Node5 -> Node6 [  label="विशेषणम्"  dir="back" ]
+Node6 -> Node7 [  label="कर्म"  dir="back" ]
+Node7 -> Node16 [  label="कर्ता"  dir="back" ]
+Node8 -> Node12 [  label="कर्म"  dir="back" ]
+Node9 -> Node10 [  label="विशेषणम्"  dir="back" ]
+Node10 -> Node15 [  label="कर्ता"  dir="back" ]
+Node11 -> Node12 [  label="अधिकरणम्"  dir="back" ]
+Node12 -> Node15 [  label="पूर्वकालः"  dir="back" ]
+Node13 -> Node14 [  label="विशेषणम्"  dir="back" ]
+Node14 -> Node15 [  label="कर्म"  dir="back" ]
+}

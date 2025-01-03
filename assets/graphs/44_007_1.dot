@@ -1,0 +1,45 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_3 [style=filled, color="#87CEEB" label = "वृद्धानां(1.3)"]
+Node5_1 [style=filled, color="#87CEEB" label = "वदतां(5.1)"]
+Node2_3 [style=filled, color="#87CEEB" label = "वेदिनाम्(2.3)"]
+Node3_2 [style=filled, color="#87CEEB" label = "ज्ञानां(3.2)"]
+
+}
+
+subgraph cluster_2{
+Node6_1 [style=filled, color="#93DB70" label = "विविधाः(6.1)"]
+Node7_1 [style=filled, color="#93DB70" label = "कथाः(7.1)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "ऋद्ध-(1.1)"]
+Node1_2 [style=filled, color="#FFFF00" label = "अभिजन-(1.2)"]
+Node1_3 [style=filled, color="#87CEEB" label = "वृद्धानां(1.3)"]
+Node2_1 [style=filled, color="#FFFF00" label = "वेद-(2.1)"]
+Node2_2 [style=filled, color="#FFFF00" label = "वेदाङ्ग-(2.2)"]
+Node2_3 [style=filled, color="#87CEEB" label = "वेदिनाम्(2.3)"]
+Node3_1 [style=filled, color="#FFFF00" label = "धर्म-(3.1)"]
+Node3_2 [style=filled, color="#87CEEB" label = "ज्ञानां(3.2)"]
+Node4_1 [style=filled, color="#87CEEB" label = "पुराणानां(4.1)"]
+Node5_1 [style=filled, color="#87CEEB" label = "वदतां(5.1)"]
+Node7_1 [style=filled, color="#93DB70" label = "कथाः(7.1)"]
+Node8_1 [style=filled, color="#FF1975" label = "शृणु(8.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="समासः"  dir="back" ]
+Node1_2 -> Node1_3 [  label="समासः"  dir="back" ]
+Node1_3 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node2_2 [  label="समासः"  dir="back" ]
+Node2_2 -> Node2_3 [  label="समासः"  dir="back" ]
+Node2_3 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node3_2 [  label="समासः"  dir="back" ]
+Node3_2 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node5_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node5_1 -> Node7_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node6_1 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node8_1 [  label="कर्म"  dir="back" ]
+}

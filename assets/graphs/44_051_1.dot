@@ -1,0 +1,43 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node7_1 [style=filled, color="#87CEEB" label = "क्रोशतां(7.1)"]
+Node8_1 [style=filled, color="#87CEEB" label = "उष्ट्राणांं(8.1)"]
+
+}
+
+subgraph cluster_2{
+Node10_1 [style=filled, color="#87CEEB" label = "हेषताम्(10.1)"]
+Node11_1 [style=filled, color="#87CEEB" label = "हयानां(11.1)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "ततः(1.1)"]
+Node6_1 [style=filled, color="#FF1975" label = "प्रजज्ञे(6.1)"]
+Node2_1 [style=filled, color="#87CEEB" label = "सूतानां(2.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "निनदः(5.1)"]
+Node3_1 [style=filled, color="#FF1975" label = "युज्यताम्(3.1)"]
+Node4_1 [style=filled, color="#FF99FF" label = "इति(4.1)"]
+Node8_1 [style=filled, color="#87CEEB" label = "उष्ट्राणांं(8.1)"]
+Node13_1 [style=filled, color="#00BFFF" label = "निनदः(13.1)"]
+Node9_1 [style=filled, color="#FF99FF" label = "चैव(9.1)"]
+Node11_1 [style=filled, color="#87CEEB" label = "हयानां(11.1)"]
+Node12_1 [style=filled, color="#FF99FF" label = "अपि(12.1)"]
+Node14_1 [style=filled, color="#FF1975" label = "(प्रजज्ञे)(14.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node6_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node2_1 -> Node5_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node3_1 -> Node5_1 [  label="सम्भावितः"  dir="back" ]
+Node4_1 -> Node3_1 [  label="सम्भावनाद्योतकः"  dir="back" ]
+Node5_1 -> Node6_1 [  label="कर्म"  dir="back" ]
+Node7_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node13_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node9_1 -> Node8_1 [  label="सम्बन्धः"  dir="back" ]
+Node10_1 -> Node11_1 [  label="विशेषणम्"  dir="back" ]
+Node11_1 -> Node13_1 [  label="षष्ठासम्बन्धः"  dir="back" ]
+Node12_1 -> Node11_1 [  label="सम्बन्धः"  dir="back" ]
+Node13_1 -> Node14_1 [  label="कर्म"  dir="back" ]
+}

@@ -1,0 +1,34 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#FFFF00" label = "युष्मत्-(1.1)"]
+Node1_2 [style=filled, color="#FFFF00" label = "तेजस्-(1.2)"]
+Node1_3 [style=filled, color="#FF99FF" label = "विवृद्ध्यर्थम्(1.3)"]
+Node5_1 [style=filled, color="#00BFFF" label = "कृतम्(5.1)"]
+Node2_1 [style=filled, color="#40E0D0" label = "मया(2.1)"]
+Node3_1 [style=filled, color="#FF99FF" label = "हि(3.1)"]
+Node4_1 [style=filled, color="#00BFFF" label = "उद्धर्षणम्(4.1)"]
+Node10_1 [style=filled, color="#FF1975" label = "वित्त(10.1)"]
+Node6_1 [style=filled, color="#FF99FF" label = "तदानीम्(6.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "विदुरा-(7.1)"]
+Node7_2 [style=filled, color="#40E0D0" label = "वाक्यैः(7.2)"]
+Node8_1 [style=filled, color="#FF99FF" label = "इति(8.1)"]
+Node9_1 [style=filled, color="#93DB70" label = "तत्(9.1)"]
+Node11_1 [style=filled, color="#6FFFC3" label = "पुत्रकाः(11.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="समासः"  dir="back" ]
+Node1_2 -> Node1_3 [  label="समासः"  dir="back" ]
+Node1_3 -> Node5_1 [  label="प्रयोजनम्"  dir="back" ]
+Node2_1 -> Node5_1 [  label="कर्ता"  dir="back" ]
+Node3_1 -> Node2_1 [  label="सम्बन्धः"  dir="back" ]
+Node4_1 -> Node5_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node10_1 [  label="वाक्यकर्म"  dir="back" ]
+Node6_1 -> Node5_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node7_1 -> Node7_2 [  label="समासः"  dir="back" ]
+Node7_2 -> Node5_1 [  label="करणम्"  dir="back" ]
+Node8_1 -> Node5_1 [  label="वाक्यकर्म_द्योतकः"  dir="back" ]
+Node9_1 -> Node10_1 [  label="कर्म"  dir="back" ]
+Node11_1 -> Node10_1 [  label="सम्बोध्यः"  dir="back" ]
+}

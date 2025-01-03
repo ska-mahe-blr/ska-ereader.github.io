@@ -1,0 +1,46 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1 [style=filled, color="#00BFFF" label = "स्यालः(1)"]
+Node13 [style=filled, color="#00BFFF" label = "कृपः(13)"]
+Node3 [style=filled, color="#00BFFF" label = "यः(3)"]
+Node5 [style=filled, color="#00BFFF" label = "एकः(5)"]
+Node6 [style=filled, color="#00BFFF" label = "दयितः(6)"]
+Node7 [style=filled, color="#00BFFF" label = "ब्राह्मणः(7)"]
+Node8 [style=filled, color="#00BFFF" label = "महान्(8)"]
+Node9 [style=filled, color="#00BFFF" label = "सः(9)"]
+Node12 [style=filled, color="#00BFFF" label = "महेष्वासः(12)"]
+
+}
+Node2 [style=filled, color="#87CEEB" label = "द्रोणस्य(2)"]
+Node1 [style=filled, color="#00BFFF" label = "स्यालः(1)"]
+Node4 [style=filled, color="#FF99FF" label = "च(4)"]
+Node13 [style=filled, color="#00BFFF" label = "कृपः(13)"]
+Node9 [style=filled, color="#00BFFF" label = "सः(9)"]
+Node3 [style=filled, color="#00BFFF" label = "यः(3)"]
+Node10 [style=filled, color="#FF99FF" label = "च(10)"]
+Node11 [style=filled, color="#C6E2EB" label = "तस्मिन्(11)"]
+Node14 [style=filled, color="#FF1975" label = "समभवत्(14)"]
+Node15 [style=filled, color="#FF99FF" label = "तदा(15)"]
+{rank = same; Node9; Node3;}
+/* Start of Relations section */
+
+Node1 -> Node13 [  label="विशेषणम्"  dir="back" ]
+Node2 -> Node1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node3 -> Node1 [  label="विशेषणम्"  dir="back" ]
+Node4 -> Node13 [  label="सम्बन्धः"  dir="back" ]
+Node5 -> Node1 [  label="विशेषणम्"  dir="back" ]
+Node6 -> Node1 [  label="विशेषणम्"  dir="back" ]
+Node7 -> Node13 [  label="विशेषणम्"  dir="back" ]
+Node8 -> Node7 [  label="विशेषणम्"  dir="back" ]
+Node9 -> Node13 [  label="विशेषणम्"  dir="back" ]
+Node9 -> Node3 [ style=dashed color="red" label="नित्यसम्बन्धः"  dir="both" ]
+Node10 -> Node9 [  label="सम्बन्धः"  dir="back" ]
+Node11 -> Node14 [  label="औपश्लेषिकाधिकरणम्"  dir="back" ]
+Node12 -> Node13 [  label="विशेषणम्"  dir="back" ]
+Node13 -> Node14 [  label="कर्ता"  dir="back" ]
+Node15 -> Node13 [  label="कालाधिकरणम्"  dir="back" ]
+}
