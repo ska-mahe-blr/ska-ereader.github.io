@@ -20676,7 +20676,7 @@
                   Ai(1, "nav", 1),
                   Ai(2, "div", 2),
                   Ai(3, "a", 3),
-                  qi(4, "Mahabharata Ashramavasika Parva"),
+                  qi(4, "Mahabharata"),
                   Ti(),
                   Ai(5, "a", 4),
                   Ai(6, "i", 5),
