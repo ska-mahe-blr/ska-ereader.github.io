@@ -24,7 +24,7 @@ Node1_1 [style=filled, color="#93DB70" label = "ब्रह्मदेया�
 Node3_1 [style=filled, color="#FF1975" label = "प्रददौ(3.1)"]
 Node2_1 [style=filled, color="#FF99FF" label = "च(2.1)"]
 Node4_1 [style=filled, color="#00BFFF" label = "स(4.1)"]
-Node3_2 [style=filled, color="#FF1975" label = "(यत्)(3.2)"]
+Node3_2 [style=filled, color="#00BFFF" label = "(यत्)(3.2)"]
 Node5_1 [style=filled, color="#00BFFF" label = "कुरूद्वहः(5.1)"]
 Node6_1 [style=filled, color="#00BFFF" label = "तत्(6.1)"]
 Node12_1 [style=filled, color="#FF1975" label = "अन्वमोदत(12.1)"]

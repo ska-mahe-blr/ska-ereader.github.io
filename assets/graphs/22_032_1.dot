@@ -23,7 +23,7 @@ Node8_1 [style=filled, color="#FF99FF" label = "प्रमृज्य(8.1)"]
 Node9_1 [style=filled, color="#00BFFF" label = "सा(9.1)"]
 Node10_1 [style=filled, color="#93DB70" label = "अश्रूणि(10.1)"]
 Node11_1 [style=filled, color="#93DB70" label = "पुत्रान्(11.1)"]
-Node12_1 [style=filled, color="#00BFFF" label = "वचनम्(12.1)"]
+Node12_1 [style=filled, color="#93DB70" label = "वचनम्(12.1)"]
 /* Start of Relations section */
 
 Node2_1 -> Node1_1 [  label="कर्ता"  dir="back" ]

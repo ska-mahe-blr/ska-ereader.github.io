@@ -34,7 +34,7 @@ Node6_1 -> Node7_1 [  label="कर्ता"  dir="back" ]
 Node8_1 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
 Node9_1 -> Node9_2 [  label="समासः"  dir="back" ]
 Node9_2 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
-Node10_1 -> Node11_1 [  label="सम्प्रदानम्"  dir="back" ]
+Node10_1 -> Node7_1 [  label="सम्प्रदानम्"  dir="back" ]
 Node11_1 -> Node11_2 [  label="बहुव्रीहिः"  dir="back" ]
 Node11_2 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
 }

@@ -8,6 +8,12 @@ Node3_1 [style=filled, color="#93DB70" label = "मातरम्(3.1)"]
 Node4_1 [style=filled, color="#93DB70" label = "कुन्तीम्(4.1)"]
 
 }
+
+subgraph cluster_2{
+Node9_1 [style=filled, color="#FF1975" label = "अन्विष्ये(9.1)"]
+Node11_1 [style=filled, color="#FF1975" label = "विनिवर्तताम्(11.1)"]
+
+}
 Node1_1 [style=filled, color="#00BFFF" label = "सः(1.1)"]
 Node2_1 [style=filled, color="#FF1975" label = "अब्रवीत्(2.1)"]
 Node5_1 [style=filled, color="#FF99FF" label = "उपेत्य(5.1)"]
@@ -32,8 +38,8 @@ Node6_1 -> Node6_2 [  label="सप्तमीतत्पुरुषः"  dir
 Node6_2 -> Node2_1 [  label="सम्बोध्यः"  dir="back" ]
 Node7_1 -> Node9_1 [  label="कर्ता"  dir="back" ]
 Node8_1 -> Node9_1 [  label="कर्म"  dir="back" ]
-Node9_1 -> Node2_1 [  label="वाक्यकर्म"  dir="back" ]
+Node9_1 -> Node11_1 [  label="समुच्चितः"  dir="back" ]
 Node10_1 -> Node11_1 [  label="कर्ता"  dir="back" ]
 Node11_1 -> Node2_1 [  label="वाक्यकर्म"  dir="back" ]
-Node12_1 -> Node2_1 [  label="वाक्यकर्म_द्योतकः"  dir="back" ]
+Node12_1 -> Node11_1 [  label="वाक्यकर्म_द्योतकः"  dir="back" ]
 }

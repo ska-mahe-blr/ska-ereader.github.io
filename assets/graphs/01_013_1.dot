@@ -11,36 +11,36 @@ Node3_2 [style=filled, color="#93DB70" label = "अन्वितानि(3.2)
 
 subgraph cluster_2{
 Node3_2 [style=filled, color="#93DB70" label = "अन्वितानि(3.2)"]
-Node2 [style=filled, color="#93DB70" label = "कार्याणि(2)"]
-Node7 [style=filled, color="#93DB70" label = "तानि(7)"]
+Node2_1 [style=filled, color="#93DB70" label = "कार्याणि(2.1)"]
+Node7_1 [style=filled, color="#93DB70" label = "तानि(7.1)"]
 
 }
 
 subgraph cluster_3{
 Node5_2 [style=filled, color="#00BFFF" label = "अभ्यनुज्ञातः(5.2)"]
-Node6 [style=filled, color="#00BFFF" label = "विदुरः(6)"]
+Node6_1 [style=filled, color="#00BFFF" label = "विदुरः(6.1)"]
 
 }
 Node1_1 [style=filled, color="#FFFF00" label = "धर्म-(1.1)"]
 Node1_2 [style=filled, color="#93DB70" label = "युक्तानि(1.2)"]
-Node2 [style=filled, color="#93DB70" label = "कार्याणि(2)"]
-Node8 [style=filled, color="#FF1975" label = "अकारयत्(8)"]
+Node2_1 [style=filled, color="#93DB70" label = "कार्याणि(2.1)"]
+Node8_1 [style=filled, color="#FF1975" label = "अकारयत्(8.1)"]
 Node3_1 [style=filled, color="#FFFF00" label = "व्यवहार-(3.1)"]
 Node3_2 [style=filled, color="#93DB70" label = "अन्वितानि(3.2)"]
-Node4 [style=filled, color="#FF99FF" label = "च(4)"]
+Node4_1 [style=filled, color="#FF99FF" label = "च(4.1)"]
 Node5_1 [style=filled, color="#FFFF00" label = "धृतराष्ट्र-(5.1)"]
 Node5_2 [style=filled, color="#00BFFF" label = "अभ्यनुज्ञातः(5.2)"]
-Node6 [style=filled, color="#00BFFF" label = "विदुरः(6)"]
+Node6_1 [style=filled, color="#00BFFF" label = "विदुरः(6.1)"]
 /* Start of Relations section */
 
 Node1_1 -> Node1_2 [  label="T3"  dir="back" ]
 Node1_2 -> Node3_2 [  label="समुच्चितः"  dir="back" ]
-Node2 -> Node8 [  label="कर्म"  dir="back" ]
+Node2_1 -> Node8_1 [  label="कर्म"  dir="back" ]
 Node3_1 -> Node3_2 [  label="T3"  dir="back" ]
-Node3_2 -> Node2 [  label="विशेषणम्"  dir="back" ]
-Node4 -> Node1_2 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node3_2 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node1_2 [  label="समुच्चय_द्योतकः"  dir="back" ]
 Node5_1 -> Node5_2 [  label="T3"  dir="back" ]
-Node5_2 -> Node6 [  label="विशेषणम्"  dir="back" ]
-Node6 -> Node8 [  label="प्रयोजककर्ता"  dir="back" ]
-Node7 -> Node2 [  label="विशेषणम्"  dir="back" ]
+Node5_2 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node8_1 [  label="प्रयोजककर्ता"  dir="back" ]
+Node7_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
 }

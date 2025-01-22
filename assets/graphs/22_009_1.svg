@@ -80,9 +80,9 @@
 <!-- Node1_1&#45;&gt;Node2_1 -->
 <g id="edge1" class="edge">
 <title>Node1_1&#45;&gt;Node2_1</title>
-<path fill="none" stroke="black" d="M270.74,-132.03C275.66,-140.51 282,-149.42 289.6,-156 301.97,-166.72 318.14,-174.63 332.7,-180.18"/>
-<polygon fill="black" stroke="black" points="273.78,-130.29 265.96,-123.14 267.61,-133.6 273.78,-130.29"/>
-<text text-anchor="middle" x="327.6" y="-144.8" font-family="Times,serif" font-size="14.00">वाक्यकर्मद्योतकः</text>
+<path fill="none" stroke="black" d="M286.38,-127.28C305.89,-142.21 331.53,-161.85 349.17,-175.36"/>
+<polygon fill="black" stroke="black" points="288.51,-124.5 278.44,-121.2 284.25,-130.05 288.51,-124.5"/>
+<text text-anchor="middle" x="339.1" y="-144.8" font-family="Times,serif" font-size="14.00">सम्बन्धः</text>
 </g>
 <!-- Node3_1 -->
 <g id="node5" class="node">

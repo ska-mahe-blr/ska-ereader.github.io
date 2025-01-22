@@ -9,8 +9,14 @@ Node2_1 [style=filled, color="#00BFFF" label = "सा(2.1)"]
 Node6_4 [style=filled, color="#00BFFF" label = "क्षणा(6.4)"]
 
 }
+
+subgraph cluster_2{
+Node7_1 [style=filled, color="#87CEEB" label = "लालप्यताम्(7.1)"]
+Node9_1 [style=filled, color="#87CEEB" label = "पुत्राणाम्(9.1)"]
+
+}
 Node1_1 [style=filled, color="#FF99FF" label = "इति(1.1)"]
-Node11_1 [style=filled, color="#FF1975" label = "अकरोद्(11.1)"]
+Node11_1 [style=filled, color="#FF1975" label = "अकरोत्(11.1)"]
 Node2_1 [style=filled, color="#00BFFF" label = "सा(2.1)"]
 Node4_1 [style=filled, color="#FF99FF" label = "एव(4.1)"]
 Node3_1 [style=filled, color="#00BFFF" label = "निश्चिता(3.1)"]
@@ -19,11 +25,11 @@ Node6_1 [style=filled, color="#FFFF00" label = "वन-(6.1)"]
 Node6_2 [style=filled, color="#FFFF00" label = "वास-(6.2)"]
 Node6_4 [style=filled, color="#00BFFF" label = "क्षणा(6.4)"]
 Node6_3 [style=filled, color="#FFFF00" label = "कृत-(6.3)"]
-Node7_1 [style=filled, color="#87CEEB" label = "लालप्यताम्(7.1)"]
-Node12_1 [style=filled, color="#93DB70" label = "वचः(12.1)"]
 Node8_1 [style=filled, color="#FFFF00" label = "बहु-(8.1)"]
 Node8_2 [style=filled, color="#00BFFF" label = "विधम्(8.2)"]
+Node7_1 [style=filled, color="#87CEEB" label = "लालप्यताम्(7.1)"]
 Node9_1 [style=filled, color="#87CEEB" label = "पुत्राणाम्(9.1)"]
+Node12_1 [style=filled, color="#93DB70" label = "वचः(12.1)"]
 Node10_1 [style=filled, color="#FF99FF" label = "न(10.1)"]
 /* Start of Relations section */
 
@@ -36,10 +42,10 @@ Node6_1 -> Node6_2 [  label="समासः"  dir="back" ]
 Node6_2 -> Node6_4 [  label="समासः"  dir="back" ]
 Node6_3 -> Node6_4 [  label="समासः"  dir="back" ]
 Node6_4 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
-Node7_1 -> Node12_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node7_1 -> Node9_1 [  label="विशेषणम्"  dir="back" ]
 Node8_1 -> Node8_2 [  label="समासः"  dir="back" ]
 Node8_2 -> Node7_1 [  label="क्रियाविशेषणम्"  dir="back" ]
-Node9_1 -> Node7_1 [  label="कर्ता"  dir="back" ]
+Node9_1 -> Node12_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
 Node10_1 -> Node11_1 [  label="प्रतिषेधः"  dir="back" ]
 Node12_1 -> Node11_1 [  label="कर्म"  dir="back" ]
 }

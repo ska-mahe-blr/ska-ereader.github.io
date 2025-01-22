@@ -10,7 +10,7 @@ Node4_1 [style=filled, color="#00BFFF" label = "कौरव्यः(4.1)"]
 }
 
 subgraph cluster_2{
-Node8_1 [style=filled, color="#00BFFF" label = "वैचित्रवीर्ये(8.1)"]
+Node8_1 [style=filled, color="#C6E2EB" label = "वैचित्रवीर्ये(8.1)"]
 Node9_1 [style=filled, color="#C6E2EB" label = "नृपतौ(9.1)"]
 
 }
@@ -36,5 +36,6 @@ Node6_1 -> Node10_1 [  label="कर्म"  dir="back" ]
 Node7_1 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
 Node8_1 -> Node9_1 [  label="विशेषणम्"  dir="back" ]
 Node9_1 -> Node4_2 [  label="अधिकरणम्"  dir="back" ]
+Node9_1 -> Node10_1 [ style=dotted label="अधिकरणम्"  dir="back" ]
 Node11_1 -> Node4_2 [  label="क्रियाविशेषणम्"  dir="back" ]
 }

@@ -1,0 +1,40 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3_1 [style=filled, color="#00BFFF" label = "महाभागा(3.1)"]
+Node1_1 [style=filled, color="#00BFFF" label = "गान्धारी(1.1)"]
+Node4_1 [style=filled, color="#00BFFF" label = "प्राज्ञा(4.1)"]
+Node5_2 [style=filled, color="#00BFFF" label = "वेदिनी(5.2)"]
+Node7_2 [style=filled, color="#00BFFF" label = "राजः(7.2)"]
+
+}
+Node1_1 [style=filled, color="#00BFFF" label = "गान्धारी(1.1)"]
+Node9_1 [style=filled, color="#FF1975" label = "उद्वहते(9.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "च(2.1)"]
+Node5_1 [style=filled, color="#FFFF00" label = "करुण-(5.1)"]
+Node5_2 [style=filled, color="#00BFFF" label = "वेदिनी(5.2)"]
+Node6_1 [style=filled, color="#FFFF00" label = "पुत्र-(6.1)"]
+Node6_2 [style=filled, color="#93DB70" label = "शोकम्(6.2)"]
+Node7_1 [style=filled, color="#FFFF00" label = "महा-(7.1)"]
+Node7_2 [style=filled, color="#00BFFF" label = "राजः(7.2)"]
+Node8_1 [style=filled, color="#40E0D0" label = "धैर्येण(8.1)"]
+Node [style=filled, color="" label = "()"]
+Node10_1 [style=filled, color="#FF99FF" label = "भृशम्(10.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node9_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node1_1 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node3_1 -> Node1_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node1_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node5_2 [  label="U"  dir="back" ]
+Node5_2 -> Node1_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node6_2 [  label="T6"  dir="back" ]
+Node6_2 -> Node9_1 [  label="कर्म"  dir="back" ]
+Node7_1 -> Node7_2 [  label="T1"  dir="back" ]
+Node7_2 -> Node1_1 [  label="समुच्चितः"  dir="back" ]
+Node8_1 -> Node9_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node10_1 -> Node9_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+}

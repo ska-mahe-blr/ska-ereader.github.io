@@ -1,0 +1,48 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node2_1 [style=filled, color="#87CEEB" label = "सर्वेषाम्(2.1)"]
+Node1_2 [style=filled, color="#87CEEB" label = "महानां(1.2)"]
+
+}
+
+subgraph cluster_2{
+Node3_1 [style=filled, color="#93DB70" label = "एतत्(3.1)"]
+Node4_2 [style=filled, color="#93DB70" label = "आगमनम्(4.2)"]
+
+}
+
+subgraph cluster_3{
+Node6_1 [style=filled, color="#00BFFF" label = "विद्वान्(6.1)"]
+Node8_1 [style=filled, color="#00BFFF" label = "जनमेजयः(8.1)"]
+Node7_2 [style=filled, color="#00BFFF" label = "पः(7.2)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "पिता-(1.1)"]
+Node1_2 [style=filled, color="#87CEEB" label = "महानां(1.2)"]
+Node4_1 [style=filled, color="#FFFF00" label = "गमन-(4.1)"]
+Node4_2 [style=filled, color="#93DB70" label = "आगमनम्(4.2)"]
+Node5_1 [style=filled, color="#FF99FF" label = "श्रुत्वा(5.1)"]
+Node10_1 [style=filled, color="#FF1975" label = "अभूत्(10.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "नृ-(7.1)"]
+Node7_2 [style=filled, color="#00BFFF" label = "पः(7.2)"]
+Node8_1 [style=filled, color="#00BFFF" label = "जनमेजयः(8.1)"]
+Node9_1 [style=filled, color="#00BFFF" label = "हृष्टः(9.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="समासः"  dir="back" ]
+Node1_2 -> Node4_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node1_2 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node4_2 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node4_2 [  label="समासः"  dir="back" ]
+Node4_2 -> Node5_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node10_1 [  label="पूर्वकालः"  dir="back" ]
+Node6_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node7_2 [  label="समासः"  dir="back" ]
+Node7_2 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node10_1 [  label="कर्ता"  dir="back" ]
+Node9_1 -> Node8_1 [  label="विधेयविशेषणम्"  dir="back" ]
+}

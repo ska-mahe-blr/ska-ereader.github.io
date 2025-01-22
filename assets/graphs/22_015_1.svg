@@ -43,7 +43,7 @@
 <title>Node4_1&#45;&gt;Node7_1</title>
 <path fill="none" stroke="black" d="M243.41,-301.6C223.13,-316.34 196.7,-335.54 178.26,-348.93"/>
 <polygon fill="black" stroke="black" points="245.65,-304.3 251.69,-295.59 241.54,-298.64 245.65,-304.3"/>
-<text text-anchor="middle" x="231.15" y="-318.8" font-family="Times,serif" font-size="14.00">कर्म</text>
+<text text-anchor="middle" x="230.15" y="-318.8" font-family="Times,serif" font-size="14.00">कर्म</text>
 </g>
 <!-- Node1_1 -->
 <g id="node3" class="node">
@@ -56,7 +56,7 @@
 <title>Node1_1&#45;&gt;Node1_2</title>
 <path fill="none" stroke="black" d="M232.48,-131.4C241.93,-145.26 253.38,-162.03 261.71,-174.24"/>
 <polygon fill="black" stroke="black" points="235.13,-129.08 226.6,-122.79 229.35,-133.03 235.13,-129.08"/>
-<text text-anchor="middle" x="256.15" y="-144.8" font-family="Times,serif" font-size="14.00">Di</text>
+<text text-anchor="middle" x="264.15" y="-144.8" font-family="Times,serif" font-size="14.00">समासः</text>
 </g>
 <!-- Node2_1 -->
 <g id="node4" class="node">
@@ -69,7 +69,7 @@
 <title>Node2_1&#45;&gt;Node1_2</title>
 <path fill="none" stroke="black" d="M313.35,-131.05C303.98,-145.02 292.56,-162.04 284.3,-174.37"/>
 <polygon fill="black" stroke="black" points="316.49,-132.64 319.16,-122.39 310.68,-128.74 316.49,-132.64"/>
-<text text-anchor="middle" x="343.15" y="-144.8" font-family="Times,serif" font-size="14.00">समुच्चय_द्योतकः</text>
+<text text-anchor="middle" x="342.15" y="-144.8" font-family="Times,serif" font-size="14.00">समुच्चय_द्योतकः</text>
 </g>
 <!-- Node3_1 -->
 <g id="node5" class="node">
@@ -114,7 +114,7 @@
 <title>Node6_1&#45;&gt;Node6_2</title>
 <path fill="none" stroke="black" d="M46.15,-220.27C46.15,-233.58 46.15,-249.19 46.15,-260.82"/>
 <polygon fill="black" stroke="black" points="49.65,-220.2 46.15,-210.2 42.65,-220.2 49.65,-220.2"/>
-<text text-anchor="middle" x="55.65" y="-231.8" font-family="Times,serif" font-size="14.00">T6</text>
+<text text-anchor="middle" x="63.15" y="-231.8" font-family="Times,serif" font-size="14.00">समासः</text>
 </g>
 <!-- Node6_2&#45;&gt;Node7_1 -->
 <g id="edge8" class="edge">
@@ -151,9 +151,9 @@
 <!-- Node9_1&#45;&gt;Node13_1 -->
 <g id="edge10" class="edge">
 <title>Node9_1&#45;&gt;Node13_1</title>
-<path fill="none" stroke="black" d="M459.69,-126.12C475.08,-135.81 494.22,-147.2 512.15,-156 529.9,-164.72 550.41,-172.84 567.36,-179.06"/>
-<polygon fill="black" stroke="black" points="461.42,-123.07 451.11,-120.65 457.66,-128.98 461.42,-123.07"/>
-<text text-anchor="middle" x="533.15" y="-144.8" font-family="Times,serif" font-size="14.00">सम्बोध्यः</text>
+<path fill="none" stroke="black" d="M459.28,-126.18C474.47,-135.87 493.39,-147.26 511.15,-156 529.07,-164.82 549.8,-172.95 566.95,-179.14"/>
+<polygon fill="black" stroke="black" points="461.11,-123.19 450.81,-120.69 457.3,-129.07 461.11,-123.19"/>
+<text text-anchor="middle" x="532.15" y="-144.8" font-family="Times,serif" font-size="14.00">सम्बोध्यः</text>
 </g>
 <!-- Node10_1 -->
 <g id="node13" class="node">
@@ -198,7 +198,7 @@
 <title>Node12_1&#45;&gt;Node12_2</title>
 <path fill="none" stroke="black" d="M776.15,-46.27C776.15,-59.58 776.15,-75.19 776.15,-86.82"/>
 <polygon fill="black" stroke="black" points="779.65,-46.2 776.15,-36.2 772.65,-46.2 779.65,-46.2"/>
-<text text-anchor="middle" x="785.65" y="-57.8" font-family="Times,serif" font-size="14.00">T6</text>
+<text text-anchor="middle" x="793.15" y="-57.8" font-family="Times,serif" font-size="14.00">समासः</text>
 </g>
 <!-- Node12_2&#45;&gt;Node13_1 -->
 <g id="edge14" class="edge">

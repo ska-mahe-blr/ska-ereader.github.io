@@ -124,7 +124,7 @@
 <title>Node4_1&#45;&gt;Node4_2</title>
 <path fill="none" stroke="black" d="M200,-62.27C200,-75.58 200,-91.19 200,-102.82"/>
 <polygon fill="black" stroke="black" points="203.5,-62.2 200,-52.2 196.5,-62.2 203.5,-62.2"/>
-<text text-anchor="middle" x="209.5" y="-73.8" font-family="Times,serif" font-size="14.00">T1</text>
+<text text-anchor="middle" x="210" y="-73.8" font-family="Times,serif" font-size="14.00">K1</text>
 </g>
 <!-- Node4_2&#45;&gt;Node5_1 -->
 <g id="edge6" class="edge">

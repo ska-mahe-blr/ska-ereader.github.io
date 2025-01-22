@@ -42,13 +42,13 @@ Node15_1 [style=filled, color="#00BFFF" label = "धृतराष्ट्र�
 /* Start of Relations section */
 
 Node1_1 -> Node17_1 [  label="कर्ता"  dir="back" ]
-Node2_1 -> Node8_1 [  label="गौणकर्म"  dir="back" ]
+Node2_1 -> Node8_1 [  label="मुख्यकर्म"  dir="back" ]
 Node3_1 -> Node3_2 [  label="षष्ठ्यर्थ-बहुव्रीहिः"  dir="back" ]
 Node3_2 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
 Node4_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
 Node5_1 -> Node5_2 [  label="सप्तमी-तत्पुरुषः"  dir="back" ]
 Node5_2 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
-Node6_1 -> Node8_1 [  label="मुख्यकर्म"  dir="back" ]
+Node6_1 -> Node8_1 [  label="गौणकर्म"  dir="back" ]
 Node7_1 -> Node8_1 [  label="सम्बन्धः"  dir="back" ]
 Node8_1 -> Node17_1 [  label="वर्तमान_समानकालः"  dir="back" ]
 Node9_1 -> Node15_1 [  label="विशेषणम्"  dir="back" ]

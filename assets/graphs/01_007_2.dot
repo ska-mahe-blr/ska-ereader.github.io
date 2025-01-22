@@ -4,19 +4,21 @@ rankdir=BT;
  bgcolor="lemonchiffon1";
 
 subgraph cluster_1{
-Node3 [style=filled, color="#00BFFF" label = "समुपाघ्राताः(3)"]
-Node1 [style=filled, color="#00BFFF" label = "ते(पाण्डवाः)(1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "समुपाघ्राताः(3.1)"]
+Node1_1 [style=filled, color="#00BFFF" label = "ते(पाण्डवाः)(1.1)"]
 
 }
-Node1 [style=filled, color="#00BFFF" label = "ते(पाण्डवाः)(1)"]
-Node5 [style=filled, color="#FF1975" label = "चक्रिरे(5)"]
-Node2 [style=filled, color="#C6E2EB" label = "मूर्ध्नि(2)"]
-Node3 [style=filled, color="#00BFFF" label = "समुपाघ्राताः(3)"]
-Node4 [style=filled, color="#93DB70" label = "सर्वकार्याणि(4)"]
+Node1_1 [style=filled, color="#00BFFF" label = "ते(पाण्डवाः)(1.1)"]
+Node5_1 [style=filled, color="#FF1975" label = "चक्रिरे(5.1)"]
+Node2_1 [style=filled, color="#C6E2EB" label = "मूर्ध्नि(2.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "समुपाघ्राताः(3.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "सर्व-(4.1)"]
+Node4_2 [style=filled, color="#93DB70" label = "कार्याणि(4.2)"]
 /* Start of Relations section */
 
-Node1 -> Node5 [  label="कर्ता"  dir="back" ]
-Node2 -> Node3 [  label="अधिकरणम्"  dir="back" ]
-Node3 -> Node1 [  label="विशेषणम्"  dir="back" ]
-Node4 -> Node5 [  label="कर्म"  dir="back" ]
+Node1_1 -> Node5_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node3_1 [  label="अधिकरणम्"  dir="back" ]
+Node3_1 -> Node1_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node4_2 [  label="K1"  dir="back" ]
+Node4_2 -> Node5_1 [  label="कर्म"  dir="back" ]
 }

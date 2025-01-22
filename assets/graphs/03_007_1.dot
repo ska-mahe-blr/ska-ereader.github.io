@@ -18,7 +18,7 @@ Node7_1 [style=filled, color="#00BFFF" label = "नराधिपः(7.1)"]
 subgraph cluster_3{
 Node12_1 [style=filled, color="#93DB70" label = "मन्दम्(12.1)"]
 Node11_1 [style=filled, color="#93DB70" label = "पुत्रं(11.1)"]
-Node13_1 [style=filled, color="#93DB70" label = "अचेतसम्(13.1)"]
+Node13_2 [style=filled, color="#93DB70" label = "चेतसम्(13.2)"]
 
 }
 Node2_1 [style=filled, color="#87CEEB" label = "तस्य(2.1)"]
@@ -31,11 +31,13 @@ Node8_1 [style=filled, color="#FF1975" label = "अन्वतप्यत्(8
 Node9_1 [style=filled, color="#FF99FF" label = "च(9.1)"]
 Node10_1 [style=filled, color="#FF99FF" label = "संस्मृत्य(10.1)"]
 Node11_1 [style=filled, color="#93DB70" label = "पुत्रं(11.1)"]
+Node13_1 [style=filled, color="#FFFF00" label = "अ-(13.1)"]
+Node13_2 [style=filled, color="#93DB70" label = "चेतसम्(13.2)"]
 /* Start of Relations section */
 
 Node1_1 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
 Node2_1 -> Node5_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
-Node4_1 -> Node3_1 [  label="विधेयविशेषणम्"  dir="back" ]
+Node4_1 -> Node7_1 [  label="विधेयविशेषणम्"  dir="back" ]
 Node5_1 -> Node3_1 [  label="हेतुः"  dir="back" ]
 Node6_1 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
 Node7_1 -> Node3_1 [  label="कर्ता"  dir="back" ]
@@ -44,5 +46,6 @@ Node9_1 -> Node8_1 [  label="सम्बन्धः"  dir="back" ]
 Node10_1 -> Node8_1 [  label="पूर्वकाल"  dir="back" ]
 Node11_1 -> Node10_1 [  label="कर्म"  dir="back" ]
 Node12_1 -> Node11_1 [  label="विशेषणम्"  dir="back" ]
-Node13_1 -> Node11_1 [  label="विशेषणम्"  dir="back" ]
+Node13_1 -> Node13_2 [  label="Bs6"  dir="back" ]
+Node13_2 -> Node11_1 [  label="विशेषणम्"  dir="back" ]
 }

@@ -84,7 +84,7 @@
 <title>Node6_1&#45;&gt;Node6_2</title>
 <path fill="none" stroke="black" d="M253.22,-46.27C253.37,-59.58 253.56,-75.19 253.69,-86.82"/>
 <polygon fill="black" stroke="black" points="256.72,-46.16 253.1,-36.2 249.72,-46.24 256.72,-46.16"/>
-<text text-anchor="middle" x="263.4" y="-57.8" font-family="Times,serif" font-size="14.00">T6</text>
+<text text-anchor="middle" x="270.9" y="-57.8" font-family="Times,serif" font-size="14.00">समासः</text>
 </g>
 <!-- Node6_2&#45;&gt;Node5_1 -->
 <g id="edge6" class="edge">

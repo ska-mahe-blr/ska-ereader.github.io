@@ -10,13 +10,6 @@ Node3_1 [style=filled, color="#00BFFF" label = "सः(3.1)"]
 Node7_1 [style=filled, color="#00BFFF" label = "वशी(7.1)"]
 
 }
-
-subgraph cluster_2{
-Node9_1 [style=filled, color="#FF1975" label = "अगमत्(9.1)"]
-Node12_1 [style=filled, color="#FF99FF" label = "च(12.1)"]
-Node14_1 [style=filled, color="#FF1975" label = "उवाच(14.1)"]
-
-}
 Node1_1 [style=filled, color="#FF99FF" label = "एवम्(1.1)"]
 Node2_1 [style=filled, color="#00BFFF" label = "उक्तः(2.1)"]
 Node4_1 [style=filled, color="#FFFF00" label = "धर्म-(4.1)"]
@@ -28,27 +21,24 @@ Node8_1 [style=filled, color="#93DB70" label = "विषादम्(8.1)"]
 Node10_1 [style=filled, color="#00BFFF" label = "तीव्रम्(10.1)"]
 Node11_1 [style=filled, color="#FF99FF" label = "न(11.1)"]
 Node14_1 [style=filled, color="#FF1975" label = "उवाच(14.1)"]
+Node12_1 [style=filled, color="#FF99FF" label = "च(12.1)"]
 Node13_1 [style=filled, color="#00BFFF" label = "किञ्चिद्(13.1)"]
+Node� [style=filled, color="" label = ""]
 Node15_1 [style=filled, color="#FF99FF" label = "ह(15.1)"]
-Node16_1 [style=filled, color="#FFFF00" label = "धर्म-(16.1)"]
-Node16_2 [style=filled, color="#00BFFF" label = "आत्मा(16.2)"]
 /* Start of Relations section */
 
 Node1_1 -> Node2_1 [  label="क्रियाविशेषणम्"  dir="back" ]
 Node2_1 -> Node4_2 [  label="विशेषणम्"  dir="back" ]
 Node3_1 -> Node4_2 [  label="विशेषणम्"  dir="back" ]
-Node4_1 -> Node4_2 [  label="Bs6"  dir="back" ]
+Node4_1 -> Node4_2 [  label="समासः"  dir="back" ]
 Node4_2 -> Node9_1 [  label="कर्ता"  dir="back" ]
 Node5_1 -> Node4_2 [  label="सहार्थः"  dir="back" ]
 Node6_1 -> Node4_2 [  label="सहार्थ_द्योतकः"  dir="back" ]
 Node7_1 -> Node4_2 [  label="विशेषणम्"  dir="back" ]
 Node8_1 -> Node9_1 [  label="कर्म"  dir="back" ]
-Node9_1 -> Node12_1 [  label="समुच्चितम्"  dir="back" ]
 Node10_1 -> Node9_1 [  label="क्रियाविशेषणम्"  dir="back" ]
 Node11_1 -> Node14_1 [  label="प्रतिषेधः"  dir="back" ]
+Node12_1 -> Node14_1 [  label="सम्बन्धः"  dir="back" ]
 Node13_1 -> Node14_1 [  label="कर्म"  dir="back" ]
-Node14_1 -> Node12_1 [  label="समुच्चितम्"  dir="back" ]
 Node15_1 -> Node14_1 [  label="सम्बन्धः"  dir="back" ]
-Node16_1 -> Node16_2 [  label="Bs6"  dir="back" ]
-Node16_2 -> Node14_1 [  label="कर्ता"  dir="back" ]
 }

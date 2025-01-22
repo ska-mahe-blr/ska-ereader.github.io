@@ -1,0 +1,48 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_2 [style=filled, color="#40E0D0" label = "गेन(1.2)"]
+Node2_1 [style=filled, color="#40E0D0" label = "विमानेन(2.1)"]
+
+}
+
+subgraph cluster_2{
+Node3_3 [style=filled, color="#00BFFF" label = "भूषितः(3.3)"]
+Node5_2 [style=filled, color="#00BFFF" label = "भागः(5.2)"]
+Node4_2 [style=filled, color="#00BFFF" label = "पुत्रः(4.2)"]
+Node7_2 [style=filled, color="#00BFFF" label = "किल्बिषः(7.2)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "काम-(1.1)"]
+Node1_2 [style=filled, color="#40E0D0" label = "गेन(1.2)"]
+Node2_1 [style=filled, color="#40E0D0" label = "विमानेन(2.1)"]
+Node8_1 [style=filled, color="#FF1975" label = "(सञ्चरिष्यति)(8.1)"]
+Node3_1 [style=filled, color="#FFFF00" label = "दिव्य-(3.1)"]
+Node3_2 [style=filled, color="#FFFF00" label = "आभरण-(3.2)"]
+Node3_3 [style=filled, color="#00BFFF" label = "भूषितः(3.3)"]
+Node4_1 [style=filled, color="#FFFF00" label = "ऋषि-(4.1)"]
+Node4_2 [style=filled, color="#00BFFF" label = "पुत्रः(4.2)"]
+Node5_1 [style=filled, color="#FFFF00" label = "महा-(5.1)"]
+Node5_2 [style=filled, color="#00BFFF" label = "भागः(5.2)"]
+Node6_1 [style=filled, color="#40E0D0" label = "तपसा(6.1)"]
+Node7_2 [style=filled, color="#00BFFF" label = "किल्बिषः(7.2)"]
+Node7_1 [style=filled, color="#FFFF00" label = "दग्ध-(7.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="समासः"  dir="back" ]
+Node1_2 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node8_1 [  label="करणम्"  dir="back" ]
+Node3_1 -> Node3_2 [  label="समासः"  dir="back" ]
+Node3_2 -> Node3_3 [  label="समासः"  dir="back" ]
+Node3_3 -> Node5_2 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node4_2 [  label="समासः"  dir="back" ]
+Node4_2 -> Node5_2 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node5_2 [  label="समासः"  dir="back" ]
+Node5_2 -> Node8_1 [  label="कर्ता"  dir="back" ]
+Node6_1 -> Node7_2 [  label="हेतुः"  dir="back" ]
+Node7_1 -> Node7_2 [  label="समासः"  dir="back" ]
+Node7_2 -> Node5_2 [  label="विशेषणम्"  dir="back" ]
+}

@@ -1,0 +1,58 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3_4 [style=filled, color="#00BFFF" label = "गामी(3.4)"]
+Node1_1 [style=filled, color="#93DB70" label = "अयम्(1.1)"]
+Node4_4 [style=filled, color="#00BFFF" label = "गौरः(4.4)"]
+Node5_3 [style=filled, color="#00BFFF" label = "अंसः(5.3)"]
+Node6_3 [style=filled, color="#00BFFF" label = "बाहुः(6.3)"]
+
+}
+Node1_1 [style=filled, color="#93DB70" label = "अयम्(1.1)"]
+Node11_1 [style=filled, color="#FF1975" label = "(अस्ति)(11.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "पुनः(2.1)"]
+Node3_1 [style=filled, color="#FFFF00" label = "मत्त-(3.1)"]
+Node3_2 [style=filled, color="#FFFF00" label = "गज-(3.2)"]
+Node3_3 [style=filled, color="#FFFF00" label = "इन्द्र-(3.3)"]
+Node3_4 [style=filled, color="#00BFFF" label = "गामी(3.4)"]
+Node4_1 [style=filled, color="#FFFF00" label = "प्रतप्त-(4.1)"]
+Node4_2 [style=filled, color="#FFFF00" label = "चामीकर-(4.2)"]
+Node4_3 [style=filled, color="#FFFF00" label = "शुद्ध-(4.3)"]
+Node4_4 [style=filled, color="#00BFFF" label = "गौरः(4.4)"]
+Node5_1 [style=filled, color="#FFFF00" label = "पृथु-(5.1)"]
+Node5_2 [style=filled, color="#FFFF00" label = "आयत-(5.2)"]
+Node5_3 [style=filled, color="#00BFFF" label = "अंसः(5.3)"]
+Node6_1 [style=filled, color="#FFFF00" label = "पृथु-(6.1)"]
+Node6_2 [style=filled, color="#FFFF00" label = "दीर्घ-(6.2)"]
+Node6_3 [style=filled, color="#00BFFF" label = "बाहुः(6.3)"]
+Node7_1 [style=filled, color="#FFFF00" label = "वृक-(7.1)"]
+Node7_2 [style=filled, color="#00BFFF" label = "उदरः(7.2)"]
+Node8_1 [style=filled, color="#FF1975" label = "पश्यत(8.1)"]
+Node9_1 [style=filled, color="#FF1975" label = "पश्यत(9.1)"]
+Node10_1 [style=filled, color="#93DB70" label = "एनम्(10.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node11_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node11_1 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node3_2 [  label="समासः"  dir="back" ]
+Node3_2 -> Node3_3 [  label="समासः"  dir="back" ]
+Node3_3 -> Node3_4 [  label="समासः"  dir="back" ]
+Node3_4 -> Node1_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node4_2 [  label="समासः"  dir="back" ]
+Node4_2 -> Node4_3 [  label="समासः"  dir="back" ]
+Node4_3 -> Node4_4 [  label="समासः"  dir="back" ]
+Node4_4 -> Node1_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node5_2 [  label="समासः"  dir="back" ]
+Node5_2 -> Node5_3 [  label="समासः"  dir="back" ]
+Node5_3 -> Node1_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node6_2 [  label="समासः"  dir="back" ]
+Node6_2 -> Node6_3 [  label="समासः"  dir="back" ]
+Node6_3 -> Node1_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node7_2 [  label="समासः"  dir="back" ]
+Node7_2 -> Node1_1 [  label="कर्तृसामानाधिकरणम्"  dir="back" ]
+Node8_1 -> Node9_1 [  label="वीप्सा"  dir="back" ]
+Node10_1 -> Node9_1 [  label="कर्म"  dir="back" ]
+}

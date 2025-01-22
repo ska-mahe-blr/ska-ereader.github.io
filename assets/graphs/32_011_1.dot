@@ -1,0 +1,67 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node5_5 [style=filled, color="#00BFFF" label = "वर्णा(5.5)"]
+Node1_1 [style=filled, color="#00BFFF" label = "इयम्(1.1)"]
+
+}
+
+subgraph cluster_2{
+Node10_1 [style=filled, color="#00BFFF" label = "यः(10.1)"]
+Node8_1 [style=filled, color="#00BFFF" label = "नृपः(8.1)"]
+
+}
+
+subgraph cluster_3{
+Node12_1 [style=filled, color="#00BFFF" label = "एषः(12.1)"]
+Node13_1 [style=filled, color="#00BFFF" label = "परिग्रहः(13.1)"]
+Node14_1 [style=filled, color="#00BFFF" label = "अग्र्यः(14.1)"]
+
+}
+Node1_1 [style=filled, color="#00BFFF" label = "इयम्(1.1)"]
+Node15_1 [style=filled, color="#FF1975" label = "(अस्ति)(15.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "स्वसा(2.1)"]
+Node3_1 [style=filled, color="#FFFF00" label = "राज-(3.1)"]
+Node3_2 [style=filled, color="#FFFF00" label = "चमू-(3.2)"]
+Node3_3 [style=filled, color="#87CEEB" label = "पतेः(3.3)"]
+Node4_1 [style=filled, color="#FF99FF" label = "तु(4.1)"]
+Node5_1 [style=filled, color="#FFFF00" label = "प्रवृद्ध-(5.1)"]
+Node5_2 [style=filled, color="#FFFF00" label = "नील-(5.2)"]
+Node5_3 [style=filled, color="#FFFF00" label = "उत्पल-(5.3)"]
+Node5_4 [style=filled, color="#FFFF00" label = "दाम-(5.4)"]
+Node5_5 [style=filled, color="#00BFFF" label = "वर्णा(5.5)"]
+Node6_1 [style=filled, color="#FF1975" label = "पस्पर्ध(6.1)"]
+Node10_1 [style=filled, color="#00BFFF" label = "यः(10.1)"]
+Node7_1 [style=filled, color="#40E0D0" label = "कृष्णेन(7.1)"]
+Node8_1 [style=filled, color="#00BFFF" label = "नृपः(8.1)"]
+Node9_1 [style=filled, color="#FF99FF" label = "सदा(9.1)"]
+Node11_1 [style=filled, color="#FFFF00" label = "वृक-(11.1)"]
+Node11_2 [style=filled, color="#87CEEB" label = "उदरस्य(11.2)"]
+Node13_1 [style=filled, color="#00BFFF" label = "परिग्रहः(13.1)"]
+Node16_1 [style=filled, color="#FF1975" label = "(अस्ति)(16.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node15_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node15_1 [  label="कर्तृसमानाधिकरणम्"  dir="back" ]
+Node3_1 -> Node3_2 [  label="समासः"  dir="back" ]
+Node3_2 -> Node3_3 [  label="समासः"  dir="back" ]
+Node3_3 -> Node2_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node4_1 -> Node3_3 [  label="सम्बन्धः"  dir="back" ]
+Node5_1 -> Node5_2 [  label="समासः"  dir="back" ]
+Node5_2 -> Node5_3 [  label="समासः"  dir="back" ]
+Node5_3 -> Node5_4 [  label="समासः"  dir="back" ]
+Node5_4 -> Node5_5 [  label="समासः"  dir="back" ]
+Node5_5 -> Node1_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node8_1 [  label="सहार्थः"  dir="back" ]
+Node8_1 -> Node6_1 [  label="कर्ता"  dir="back" ]
+Node9_1 -> Node6_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node10_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node11_1 -> Node11_2 [  label="समासः"  dir="back" ]
+Node11_2 -> Node13_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node12_1 -> Node13_1 [  label="विशेषणम्"  dir="back" ]
+Node13_1 -> Node16_1 [  label="कर्ता"  dir="back" ]
+Node14_1 -> Node13_1 [  label="विशेषणम्"  dir="back" ]
+}

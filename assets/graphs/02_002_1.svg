@@ -147,7 +147,7 @@
 <!-- Node3_2 -->
 <g id="node10" class="node">
 <title>Node3_2</title>
-<ellipse fill="#ff1975" stroke="#ff1975" cx="503.7" cy="-192" rx="48.99" ry="18"/>
+<ellipse fill="#00bfff" stroke="#00bfff" cx="503.7" cy="-192" rx="48.99" ry="18"/>
 <text text-anchor="middle" x="503.7" y="-188.3" font-family="Times,serif" font-size="14.00">(यत्)(3.2)</text>
 </g>
 <!-- Node3_2&#45;&gt;Node3_1 -->

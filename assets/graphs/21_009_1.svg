@@ -51,7 +51,7 @@
 <title>Node2_1&#45;&gt;Node8_1</title>
 <path fill="none" stroke="black" d="M289.67,-214.65C268.16,-229.51 240.11,-248.9 220.72,-262.3"/>
 <polygon fill="black" stroke="black" points="291.92,-217.35 298.15,-208.79 287.94,-211.59 291.92,-217.35"/>
-<text text-anchor="middle" x="286.5" y="-231.8" font-family="Times,serif" font-size="14.00">गौणकर्म</text>
+<text text-anchor="middle" x="287" y="-231.8" font-family="Times,serif" font-size="14.00">मुख्यकर्म</text>
 </g>
 <!-- Node4_1 -->
 <g id="node3" class="node">
@@ -90,7 +90,7 @@
 <title>Node6_1&#45;&gt;Node8_1</title>
 <path fill="none" stroke="black" d="M111.26,-214.44C131.51,-229.28 158.01,-248.69 176.36,-262.15"/>
 <polygon fill="black" stroke="black" points="113.14,-211.48 103.01,-208.39 109,-217.13 113.14,-211.48"/>
-<text text-anchor="middle" x="167" y="-231.8" font-family="Times,serif" font-size="14.00">मुख्यकर्म</text>
+<text text-anchor="middle" x="166.5" y="-231.8" font-family="Times,serif" font-size="14.00">गौणकर्म</text>
 </g>
 <!-- Node9_1 -->
 <g id="node6" class="node">

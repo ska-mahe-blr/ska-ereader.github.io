@@ -1,0 +1,46 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node6_1 [style=filled, color="#00BFFF" label = "असौ(6.1)"]
+Node8_1 [style=filled, color="#00BFFF" label = "पिता(8.1)"]
+Node7_2 [style=filled, color="#00BFFF" label = "वंशभृत्(7.2)"]
+Node9_1 [style=filled, color="#00BFFF" label = "ज्येष्ठः(9.1)"]
+Node10_1 [style=filled, color="#00BFFF" label = "गतः(10.1)"]
+Node13_2 [style=filled, color="#00BFFF" label = "परिप्लुतः(13.2)"]
+
+}
+Node1_1 [style=filled, color="#93DB70" label = "तान्(1.1)"]
+Node2_1 [style=filled, color="#FF1975" label = "अपृच्छत्(2.1)"]
+Node4_1 [style=filled, color="#00BFFF" label = "राजा(4.1)"]
+Node [style=filled, color="" label = "()"]
+Node3_1 [style=filled, color="#FF99FF" label = "ततः(3.1)"]
+Node5_1 [style=filled, color="#FF99FF" label = "क्व(5.1)"]
+Node14_1 [style=filled, color="#FF1975" label = "(अस्ति)(14.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "कौरव-(7.1)"]
+Node7_2 [style=filled, color="#00BFFF" label = "वंशभृत्(7.2)"]
+Node8_1 [style=filled, color="#00BFFF" label = "पिता(8.1)"]
+Node11_1 [style=filled, color="#87CEEB" label = "अस्माकम्(11.1)"]
+Node12_1 [style=filled, color="#FF99FF" label = "इति(12.1)"]
+Node13_1 [style=filled, color="#FFFF00" label = "बाष्प-(13.1)"]
+Node13_2 [style=filled, color="#00BFFF" label = "परिप्लुतः(13.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_1 [  label="कर्म"  dir="back" ]
+Node3_1 -> Node2_1 [  label="सम्बन्धः"  dir="back" ]
+Node4_1 -> Node2_1 [  label="कर्ता"  dir="back" ]
+Node5_1 -> Node14_1 [  label="देशाधिकरणम्"  dir="back" ]
+Node6_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node7_2 [  label="समासः"  dir="back" ]
+Node7_2 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node14_1 [  label="कर्ता"  dir="back" ]
+Node9_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node10_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node11_1 -> Node8_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node12_1 -> Node2_1 [  label="वाक्यकर्मद्योतकः"  dir="back" ]
+Node13_1 -> Node13_2 [  label="समासः"  dir="back" ]
+Node13_2 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node14_1 -> Node12_1 [  label="वाक्यकर्म"  dir="back" ]
+}

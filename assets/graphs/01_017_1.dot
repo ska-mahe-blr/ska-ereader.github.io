@@ -4,34 +4,34 @@ rankdir=BT;
  bgcolor="lemonchiffon1";
 
 subgraph cluster_1{
-Node2 [style=filled, color="" label = "सूपकाराः(2)"]
-Node1 [style=filled, color="" label = "आरालिकाः(1)"]
-Node3 [style=filled, color="" label = "रागखाण्डविकाः(3)"]
+Node2_1 [style=filled, color="#00BFFF" label = "सूपकाराः(2.1)"]
+Node1_1 [style=filled, color="#00BFFF" label = "आरालिकाः(1.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "रागखाण्डविकाः (3.1)"]
 
 }
 
 subgraph cluster_2{
-Node6 [style=filled, color="" label = "राजानं(6)"]
-Node7 [style=filled, color="" label = "धृतराष्ट्रं(7)"]
+Node6_1 [style=filled, color="#93DB70" label = "राजानं(6.1)"]
+Node7_1 [style=filled, color="#93DB70" label = "धृतराष्ट्रं(7.1)"]
 
 }
-Node1 [style=filled, color="" label = "आरालिकाः(1)"]
-Node5 [style=filled, color="" label = "उपातिष्ठन्त(उपातिष्ठन्)(5)"]
-Node4 [style=filled, color="" label = "तथा(4)"]
-Node3 [style=filled, color="" label = "रागखाण्डविकाः(3)"]
-Node7 [style=filled, color="" label = "धृतराष्ट्रं(7)"]
-Node8 [style=filled, color="" label = "यथा(8)"]
-Node12 [style=filled, color="" label = "(उपातिष्ठन्त(उपातिष्ठन्))(12)"]
-Node9 [style=filled, color="" label = "पुरा(9)"]
+Node1_1 [style=filled, color="#00BFFF" label = "आरालिकाः(1.1)"]
+Node5_1 [style=filled, color="#FF1975" label = "उपातिष्ठन्त(उपातिष्ठन्)(5.1)"]
+Node4_1 [style=filled, color="#FF99FF" label = "तथा(4.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "रागखाण्डविकाः (3.1)"]
+Node7_1 [style=filled, color="#93DB70" label = "धृतराष्ट्रं(7.1)"]
+Node8_1 [style=filled, color="#FF99FF" label = "यथा(8.1)"]
+Node12_1 [style=filled, color="#FF1975" label = "उपातिष्ठन्त(उपातिष्ठन्)(12.1)"]
+Node9_1 [style=filled, color="#FF99FF" label = "पुरा(9.1)"]
 /* Start of Relations section */
 
-Node1 -> Node5 [  label="कर्ता"  dir="back" ]
-Node2 -> Node1 [  label="समुच्चितः"  dir="back" ]
-Node3 -> Node1 [  label="समुच्चितः"  dir="back" ]
-Node4 -> Node1 [  label="समुच्चय_द्योतकः"  dir="back" ]
-Node6 -> Node7 [  label="विशेषणम्"  dir="back" ]
-Node7 -> Node5 [  label="कर्म"  dir="back" ]
-Node8 -> Node12 [  label="उपमान_द्योतकः"  dir="back" ]
-Node9 -> Node12 [  label="कालाधिकरणम्"  dir="back" ]
-Node12 -> Node5 [  label="उपमानम्"  dir="back" ]
+Node1_1 -> Node5_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node1_1 [  label="समुच्चितः"  dir="back" ]
+Node3_1 -> Node1_1 [  label="समुच्चितः"  dir="back" ]
+Node4_1 -> Node1_1 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node6_1 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node5_1 [  label="कर्म"  dir="back" ]
+Node8_1 -> Node12_1 [  label="उपमान_द्योतकः"  dir="back" ]
+Node9_1 -> Node12_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node12_1 -> Node5_1 [  label="उपमानम्"  dir="back" ]
 }

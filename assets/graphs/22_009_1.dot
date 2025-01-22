@@ -26,7 +26,7 @@ Node9_1 [style=filled, color="#93DB70" label = "गान्धारीम्(9
 Node11_1 [style=filled, color="#FF99FF" label = "ह(11.1)"]
 /* Start of Relations section */
 
-Node1_1 -> Node2_1 [  label="वाक्यकर्मद्योतकः"  dir="back" ]
+Node1_1 -> Node2_1 [  label="सम्बन्धः"  dir="back" ]
 Node2_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
 Node3_1 -> Node3_2 [  label="षष्ठीतत्पुरुषः"  dir="back" ]
 Node3_2 -> Node2_1 [  label="कर्ता"  dir="back" ]
