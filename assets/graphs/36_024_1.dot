@@ -1,0 +1,50 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node7_1 [style=filled, color="#40E0D0" label = "भवद्भिः(7.1)"]
+Node8_2 [style=filled, color="#40E0D0" label = "कल्पैः(8.2)"]
+
+}
+
+subgraph cluster_2{
+Node11_1 [style=filled, color="#93DB70" label = "इष्टां(11.1)"]
+Node12_1 [style=filled, color="#93DB70" label = "गतिं(12.1)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "अद्य(1.1)"]
+Node5_1 [style=filled, color="#FF1975" label = "अवगच्छामि(5.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "च(2.1)"]
+Node3_1 [style=filled, color="#FF99FF" label = "अपि(3.1)"]
+Node4_1 [style=filled, color="#00BFFF" label = "अहम्(4.1)"]
+Node [style=filled, color="" label = "()"]
+Node6_1 [style=filled, color="#FF99FF" label = "यत्(6.1)"]
+Node9_1 [style=filled, color="#00BFFF" label = "समेतः(9.1)"]
+Node8_1 [style=filled, color="#FFFF00" label = "ब्रह्म-(8.1)"]
+Node8_2 [style=filled, color="#40E0D0" label = "कल्पैः(8.2)"]
+Node14_1 [style=filled, color="#FF1975" label = "(प्रददाति)(14.1)"]
+Node10_1 [style=filled, color="#87CEEB" label = "आत्मनः(10.1)"]
+Node12_1 [style=filled, color="#93DB70" label = "गतिं(12.1)"]
+Node13_1 [style=filled, color="#FF99FF" label = "इह(13.1)"]
+Node15_1 [style=filled, color="#FFFF00" label = "तपो-(15.1)"]
+Node15_2 [style=filled, color="#6FFFC3" label = "धनाः(15.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node5_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node2_1 -> Node1_1 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node2_1 [  label="सम्बन्धः"  dir="back" ]
+Node4_1 -> Node5_1 [  label="कर्ता"  dir="back" ]
+Node6_1 -> Node9_1 [  label="सम्बन्धः"  dir="back" ]
+Node7_1 -> Node8_2 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node8_2 [  label="समासः"  dir="back" ]
+Node8_2 -> Node9_1 [  label="सहार्थः"  dir="back" ]
+Node9_1 -> Node14_1 [  label="कर्ता"  dir="back" ]
+Node10_1 -> Node12_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node11_1 -> Node12_1 [  label="विशेषणम्"  dir="back" ]
+Node12_1 -> Node14_1 [  label="कर्म"  dir="back" ]
+Node13_1 -> Node14_1 [  label="देशाधिकरणम्"  dir="back" ]
+Node15_1 -> Node15_2 [  label="समासः"  dir="back" ]
+Node15_2 -> Node14_1 [  label="सम्बोध्यः"  dir="back" ]
+}

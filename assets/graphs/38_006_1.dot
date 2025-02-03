@@ -1,0 +1,51 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node4_1 [style=filled, color="#00BFFF" label = "भवित्री(4.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "जननी(3.1)"]
+
+}
+
+subgraph cluster_2{
+Node11_1 [style=filled, color="#00BFFF" label = "ते(11.1)"]
+Node12_1 [style=filled, color="#00BFFF" label = "देवाः(12.1)"]
+
+}
+Node1_1 [style=filled, color="#00BFFF" label = "त्वं(1.1)"]
+Node6_1 [style=filled, color="#FF1975" label = "असि(6.1)"]
+Node2_1 [style=filled, color="#87CEEB" label = "धर्मस्य(2.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "जननी(3.1)"]
+Node5_1 [style=filled, color="#FF99FF" label = "च(5.1)"]
+Node4_1 [style=filled, color="#00BFFF" label = "भवित्री(4.1)"]
+Node [style=filled, color="" label = "()"]
+Node7_1 [style=filled, color="#FFFF00" label = "वर-(7.1)"]
+Node7_2 [style=filled, color="#6FFFC3" label = "आनने(7.2)"]
+Node15_1 [style=filled, color="#FF1975" label = "स्थास्यन्ति(15.1)"]
+Node8_1 [style=filled, color="#93DB70" label = "यान्(8.1)"]
+Node11_1 [style=filled, color="#00BFFF" label = "ते(11.1)"]
+Node10_1 [style=filled, color="#FF1975" label = "आवाहयिष्यसि(10.1)"]
+Node9_1 [style=filled, color="#00BFFF" label = "त्वं(9.1)"]
+Node12_1 [style=filled, color="#00BFFF" label = "देवाः(12.1)"]
+Node13_1 [style=filled, color="#87CEEB" label = "तव(13.1)"]
+Node14_1 [style=filled, color="#C6E2EB" label = "वशे(14.1)"]
+{rank = same; Node8_1; Node11_1;}
+/* Start of Relations section */
+
+Node1_1 -> Node6_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node3_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node3_1 -> Node6_1 [  label="कर्ता"  dir="back" ]
+Node4_1 -> Node3_1 [  label="समुच्चितः"  dir="back" ]
+Node5_1 -> Node4_1 [  label="सुप्_समुच्चय_द्योतकः"  dir="back" ]
+Node7_1 -> Node7_2 [  label="समासः"  dir="back" ]
+Node7_2 -> Node15_1 [  label="सम्बोध्यः"  dir="back" ]
+Node8_1 -> Node11_1 [ style=dashed color="red" label="नित्य_सम्बन्धः1"  dir="both" ]
+Node8_1 -> Node10_1 [ style=dotted label="कर्म"  dir="back" ]
+Node9_1 -> Node10_1 [  label="कर्ता"  dir="back" ]
+Node11_1 -> Node12_1 [  label="विशेषणम्"  dir="back" ]
+Node12_1 -> Node15_1 [  label="कर्ता"  dir="back" ]
+Node13_1 -> Node14_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node14_1 -> Node15_1 [  label="अधिकरणम्"  dir="back" ]
+}

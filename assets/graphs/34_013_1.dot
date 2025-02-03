@@ -1,0 +1,44 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_1 [style=filled, color="#93DB70" label = "अजिनानि(1.1)"]
+Node10_1 [style=filled, color="#93DB70" label = "पिठराणि(10.1)"]
+Node2_1 [style=filled, color="#93DB70" label = "प्रवेणीः(2.1)"]
+Node4_2 [style=filled, color="#93DB70" label = "स्रुवम्(4.2)"]
+Node7_1 [style=filled, color="#93DB70" label = "कमण्डलून्(7.1)"]
+Node9_1 [style=filled, color="#93DB70" label = "स्थालीः(9.1)"]
+
+}
+Node3_1 [style=filled, color="#FF99FF" label = "च(3.1)"]
+Node2_1 [style=filled, color="#93DB70" label = "प्रवेणीः(2.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "स्रुक्-(4.1)"]
+Node4_2 [style=filled, color="#93DB70" label = "स्रुवम्(4.2)"]
+Node5_1 [style=filled, color="#FF99FF" label = "च(5.1)"]
+Node6_1 [style=filled, color="#FFFF00" label = "मही-(6.1)"]
+Node6_2 [style=filled, color="#00BFFF" label = "पतिः(6.2)"]
+Node13_1 [style=filled, color="#FF1975" label = "(प्रददौ)(13.1)"]
+Node8_1 [style=filled, color="#FF99FF" label = "तथा(8.1)"]
+Node7_1 [style=filled, color="#93DB70" label = "कमण्डलून्(7.1)"]
+Node10_1 [style=filled, color="#93DB70" label = "पिठराणि(10.1)"]
+Node11_1 [style=filled, color="#FF99FF" label = "च(11.1)"]
+Node12_1 [style=filled, color="#6FFFC3" label = "भारत(12.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node10_1 [  label="समुच्चितः"  dir="back" ]
+Node2_1 -> Node10_1 [  label="समुच्चितः"  dir="back" ]
+Node3_1 -> Node2_1 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node4_1 -> Node4_2 [  label="समासः"  dir="back" ]
+Node4_2 -> Node10_1 [  label="समुच्चितः"  dir="back" ]
+Node5_1 -> Node4_2 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node6_1 -> Node6_2 [  label="समासः"  dir="back" ]
+Node6_2 -> Node13_1 [  label="कर्ता"  dir="back" ]
+Node7_1 -> Node10_1 [  label="समुच्चितः"  dir="back" ]
+Node8_1 -> Node7_1 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node9_1 -> Node10_1 [  label="समुच्चितः"  dir="back" ]
+Node10_1 -> Node13_1 [  label="कर्म"  dir="back" ]
+Node11_1 -> Node10_1 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node12_1 -> Node13_1 [  label="सम्बोध्यः"  dir="back" ]
+}

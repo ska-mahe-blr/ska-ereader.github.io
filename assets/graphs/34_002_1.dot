@@ -1,0 +1,37 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#FF99FF" label = "तत्र(1.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "तत्र(2.1)"]
+Node5_1 [style=filled, color="#FF1975" label = "आसन्(5.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "कथाः(3.1)"]
+Node4_1 [style=filled, color="#FF99FF" label = "च(4.1)"]
+Node [style=filled, color="" label = "()"]
+Node6_1 [style=filled, color="#87CEEB" label = "तेषाम्(6.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "धर्म-(7.1)"]
+Node7_2 [style=filled, color="#FFFF00" label = "अर्थ-(7.2)"]
+Node7_3 [style=filled, color="#00BFFF" label = "लक्षणाः(7.3)"]
+Node8_1 [style=filled, color="#FFFF00" label = "विचित्र-(8.1)"]
+Node8_2 [style=filled, color="#FFFF00" label = "पद-(8.2)"]
+Node8_3 [style=filled, color="#00BFFF" label = "सञ्चारा(8.3)"]
+Node9_1 [style=filled, color="#FFFF00" label = "नाना-(9.1)"]
+Node9_2 [style=filled, color="#40E0D0" label = "श्रुतिभिः(9.2)"]
+Node10_1 [style=filled, color="#00BFFF" label = "अन्विताः(10.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_1 [  label="वीप्सा"  dir="back" ]
+Node2_1 -> Node5_1 [  label="देशाधिकरणम्"  dir="back" ]
+Node3_1 -> Node5_1 [  label="कर्ता"  dir="back" ]
+Node4_1 -> Node3_1 [  label="सम्बन्धः"  dir="back" ]
+Node6_1 -> Node3_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node7_1 -> Node7_2 [  label="समासः"  dir="back" ]
+Node7_2 -> Node7_3 [  label="समासः"  dir="back" ]
+Node7_3 -> Node3_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node8_1 -> Node8_2 [  label="समासः"  dir="back" ]
+Node8_2 -> Node8_3 [  label="समासः"  dir="back" ]
+Node8_3 -> Node3_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node9_1 -> Node9_2 [  label="समासः"  dir="back" ]
+Node9_2 -> Node10_1 [  label="कर्ता"  dir="back" ]
+Node10_1 -> Node3_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+}

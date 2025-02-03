@@ -1,0 +1,44 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_2 [style=filled, color="#00BFFF" label = "प्रज्ञा(1.2)"]
+Node3_1 [style=filled, color="#00BFFF" label = "देवी(3.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "बुद्धिमती(2.1)"]
+Node4_3 [style=filled, color="#00BFFF" label = "दर्शिनी(4.3)"]
+Node5_4 [style=filled, color="#00BFFF" label = "ज्ञा(5.4)"]
+Node7_1 [style=filled, color="#00BFFF" label = "एषा(7.1)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "महत्-(1.1)"]
+Node1_2 [style=filled, color="#00BFFF" label = "प्रज्ञा(1.2)"]
+Node3_1 [style=filled, color="#00BFFF" label = "देवी(3.1)"]
+Node9_1 [style=filled, color="#FF1975" label = "शोचति(9.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "धर्म-(4.1)"]
+Node4_2 [style=filled, color="#FFFF00" label = "अर्थ-(4.2)"]
+Node4_3 [style=filled, color="#00BFFF" label = "दर्शिनी(4.3)"]
+Node5_1 [style=filled, color="#FFFF00" label = "आगम-(5.1)"]
+Node5_2 [style=filled, color="#FFFF00" label = "अपाय-(5.2)"]
+Node5_4 [style=filled, color="#00BFFF" label = "ज्ञा(5.4)"]
+Node5_3 [style=filled, color="#FFFF00" label = "तत्व-(5.3)"]
+Node6_1 [style=filled, color="#FF99FF" label = "कच्चित्(6.1)"]
+Node8_1 [style=filled, color="#FF99FF" label = "न(8.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="समासः"  dir="back" ]
+Node1_2 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node9_1 [  label="कर्ता"  dir="back" ]
+Node4_1 -> Node4_2 [  label="समासः"  dir="back" ]
+Node4_2 -> Node4_3 [  label="समासः"  dir="back" ]
+Node4_3 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node5_2 [  label="समासः"  dir="back" ]
+Node5_2 -> Node5_4 [  label="समासः"  dir="back" ]
+Node5_3 -> Node5_4 [  label="समासः"  dir="back" ]
+Node5_4 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node9_1 [  label="सम्बन्धः"  dir="back" ]
+Node7_1 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node9_1 [  label="प्रतिषेधः"  dir="back" ]
+}

@@ -1,0 +1,47 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node2_1 [style=filled, color="#40E0D0" label = "मूढया(2.1)"]
+Node1_1 [style=filled, color="#40E0D0" label = "मया(1.1)"]
+
+}
+
+subgraph cluster_2{
+Node5_1 [style=filled, color="#00BFFF" label = "ज्ञायमानः(5.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "सः(3.1)"]
+
+}
+Node1_1 [style=filled, color="#40E0D0" label = "मया(1.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "उपेक्षितः(7.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "सः(3.1)"]
+Node4_1 [style=filled, color="#00BFFF" label = "पुत्रः(4.1)"]
+Node6_1 [style=filled, color="#FF99FF" label = "अपि(6.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "ज्ञायमानः(5.1)"]
+Node [style=filled, color="" label = "()"]
+Node8_1 [style=filled, color="#00BFFF" label = "तत्(8.1)"]
+Node10_1 [style=filled, color="#FF1975" label = "दहति(10.1)"]
+Node9_1 [style=filled, color="#93DB70" label = "मां(9.1)"]
+Node11_1 [style=filled, color="#FF99FF" label = "यथा(11.1)"]
+Node12_1 [style=filled, color="#00BFFF" label = "सुविदितं(12.1)"]
+Node13_1 [style=filled, color="#87CEEB" label = "तव(13.1)"]
+Node14_1 [style=filled, color="#FFFF00" label = "विप्र-(14.1)"]
+Node14_2 [style=filled, color="#6FFFC3" label = "ऋषे(14.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node7_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node1_1 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node7_1 [  label="कर्म"  dir="back" ]
+Node4_1 -> Node3_1 [  label="कर्मसमानाधिकरणम्"  dir="back" ]
+Node5_1 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node5_1 [  label="सम्बन्धः"  dir="back" ]
+Node8_1 -> Node10_1 [  label="कर्ता"  dir="back" ]
+Node9_1 -> Node10_1 [  label="कर्म"  dir="back" ]
+Node11_1 -> Node12_1 [  label="सम्बन्धः"  dir="back" ]
+Node11_1 -> Node10_1 [ style=dotted label="उत्प्रेक्षा_द्योतकः"  dir="back" ]
+Node13_1 -> Node12_1 [  label="सम्बन्धः"  dir="back" ]
+Node14_1 -> Node14_2 [  label="समासः"  dir="back" ]
+Node14_2 -> Node10_1 [  label="सम्बोध्यः"  dir="back" ]
+}
