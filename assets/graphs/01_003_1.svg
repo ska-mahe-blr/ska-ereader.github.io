@@ -136,9 +136,9 @@
 <!-- Node9_1&#45;&gt;Node6_1 -->
 <g id="edge9" class="edge">
 <title>Node9_1&#45;&gt;Node6_1</title>
-<path fill="none" stroke="black" d="M201.73,-227.06C225.53,-237.39 256.6,-250.04 285,-259 321.25,-270.43 363.43,-279.8 394.3,-285.96"/>
-<polygon fill="black" stroke="black" points="202.9,-223.74 192.33,-222.93 200.08,-230.15 202.9,-223.74"/>
-<text text-anchor="middle" x="320.5" y="-247.8" font-family="Times,serif" font-size="14.00">विधेयविशेषणम्</text>
+<path fill="none" stroke="black" d="M200.09,-227.61C222.39,-237.95 251.33,-250.42 278,-259 316.3,-271.32 361.15,-280.71 393.6,-286.65"/>
+<polygon fill="black" stroke="black" points="201.5,-224.41 190.96,-223.33 198.53,-230.75 201.5,-224.41"/>
+<text text-anchor="middle" x="317" y="-247.8" font-family="Times,serif" font-size="14.00">विधेय_विशेषणम्</text>
 </g>
 <!-- Node7_1 -->
 <g id="node11" class="node">

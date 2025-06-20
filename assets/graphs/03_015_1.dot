@@ -21,10 +21,10 @@ Node3_1 [style=filled, color="#87CEEB" label = "नरेन्द्रस्�
 
 }
 Node2_1 [style=filled, color="#00BFFF" label = "तुष्टः(2.1)"]
-Node5_1 [style=filled, color="#00BFFF" label = "विदुरः(5.1)"]
+Node16_1 [style=filled, color="#FF1975" label = "(आसीत्)(16.1)"]
 Node3_1 [style=filled, color="#87CEEB" label = "नरेन्द्रस्य(3.1)"]
 Node7_1 [style=filled, color="#40E0D0" label = "शौचेन(7.1)"]
-Node16_1 [style=filled, color="#FF1975" label = "(आसीत्)(16.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "विदुरः(5.1)"]
 Node6_1 [style=filled, color="#FF99FF" label = "तथा(6.1)"]
 Node8_1 [style=filled, color="#FF99FF" label = "च(8.1)"]
 Node10_1 [style=filled, color="#FF99FF" label = "न(10.1)"]
@@ -36,7 +36,7 @@ Node15_1 [style=filled, color="#6FFFC3" label = "शत्रुहन्(15.1)"
 /* Start of Relations section */
 
 Node1_1 -> Node7_1 [  label="समुच्चितः"  dir="back" ]
-Node2_1 -> Node5_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node2_1 -> Node16_1 [  label="विधेय_विशेषणम्"  dir="back" ]
 Node3_1 -> Node7_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
 Node4_1 -> Node5_1 [  label="समुच्चितः"  dir="back" ]
 Node5_1 -> Node16_1 [  label="कर्ता"  dir="back" ]

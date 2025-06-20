@@ -1,0 +1,49 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node6_1 [style=filled, color="#FF1975" label = "(आसीत्)(6.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "नारी-(4.1)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "स-(1.1)"]
+Node1_2 [style=filled, color="#FFFF00" label = "वस्त्र-(1.2)"]
+Node1_3 [style=filled, color="#FFFF00" label = "फेन-(1.3)"]
+Node1_4 [style=filled, color="#FFFF00" label = "रत्न-(1.4)"]
+Node1_5 [style=filled, color="#00BFFF" label = "ओघः(1.5)"]
+Node5_1 [style=filled, color="#00BFFF" label = "(यज्ञः)(5.1)"]
+Node2_1 [style=filled, color="#FFFF00" label = "मृदङ्ग-(2.1)"]
+Node2_2 [style=filled, color="#FFFF00" label = "निनद-(2.2)"]
+Node2_3 [style=filled, color="#00BFFF" label = "स्वनः(2.3)"]
+Node3_1 [style=filled, color="#FFFF00" label = "गो-(3.1)"]
+Node3_2 [style=filled, color="#FFFF00" label = "अश्व-(3.2)"]
+Node3_3 [style=filled, color="#FFFF00" label = "मकर-(3.3)"]
+Node3_4 [style=filled, color="#00BFFF" label = "आवर्तः(3.4)"]
+Node4_1 [style=filled, color="#FFFF00" label = "नारी-(4.1)"]
+Node4_2 [style=filled, color="#FFFF00" label = "रत्न-(4.2)"]
+Node4_3 [style=filled, color="#FFFF00" label = "महत्-(4.3)"]
+Node4_4 [style=filled, color="#00BFFF" label = "करः(4.4)"]
+Node6_1 [style=filled, color="#FF1975" label = "(आसीत्)(6.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="समासः"  dir="back" ]
+Node1_2 -> Node1_3 [  label="समासः"  dir="back" ]
+Node1_3 -> Node1_4 [  label="समासः"  dir="back" ]
+Node1_4 -> Node1_5 [  label="समासः"  dir="back" ]
+Node1_5 -> Node5_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node2_1 -> Node2_2 [  label="समासः"  dir="back" ]
+Node2_2 -> Node2_3 [  label="समासः"  dir="back" ]
+Node2_3 -> Node5_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node3_1 -> Node3_2 [  label="समासः"  dir="back" ]
+Node3_2 -> Node3_3 [  label="समासः"  dir="back" ]
+Node3_3 -> Node3_4 [  label="समासः"  dir="back" ]
+Node3_4 -> Node5_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node4_1 -> Node4_2 [  label="समासः"  dir="back" ]
+Node4_2 -> Node4_3 [  label="समासः"  dir="back" ]
+Node4_3 -> Node4_4 [  label="समासः"  dir="back" ]
+Node4_4 -> Node5_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node5_1 -> Node6_1 [  label="कर्ता"  dir="back" ]
+Node6_1 -> Node4_1 [  label="समुच्चितः"  dir="back" ]
+}

@@ -1,0 +1,45 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#FF99FF" label = "प्रातः(1.1)"]
+Node4_1 [style=filled, color="#FF1975" label = "पश्येथाः(4.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "एव(2.1)"]
+Node3_1 [style=filled, color="#FF99FF" label = "हि(3.1)"]
+Node16_1 [style=filled, color="#93DB70" label = "(तान्)(16.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "ये(5.1)"]
+Node6_1 [style=filled, color="#FF1975" label = "कुर्युः(6.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "व्यय-(7.1)"]
+Node7_2 [style=filled, color="#00BFFF" label = "कर्म(7.2)"]
+Node8_1 [style=filled, color="#B0E2FF" label = "ते(8.1)"]
+Node9_1 [style=filled, color="#93DB70" label = "अलंकारम्(9.1)"]
+Node14_1 [style=filled, color="#FF1975" label = "समाचरेः(14.1)"]
+Node10_1 [style=filled, color="#FF99FF" label = "अथ(10.1)"]
+Node11_1 [style=filled, color="#93DB70" label = "भोज्यम्(11.1)"]
+Node12_1 [style=filled, color="#FF99FF" label = "अतः(12.1)"]
+Node13_1 [style=filled, color="#FF99FF" label = "ऊर्ध्वम्(13.1)"]
+Node17_1 [style=filled, color="#00BFFF" label = "(त्वम्)(17.1)"]
+Node [style=filled, color="" label = "()"]
+Node15_1 [style=filled, color="#00BFFF" label = "(त्वम्)(15.1)"]
+{rank = same; Node5_1; Node16_1;}
+{rank = same; Node16_1; Node5_1;}
+/* Start of Relations section */
+
+Node1_1 -> Node4_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node2_1 -> Node1_1 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node2_1 [  label="सम्बन्धः"  dir="back" ]
+Node4_1 -> Node16_1 [  label="अनुयोगी"  dir="back" ]
+Node5_1 -> Node16_1 [ style=dashed color="red" label="नित्यसम्बन्धः"  dir="both" ]
+Node6_1 -> Node5_1 [  label="प्रतियोगी"  dir="back" ]
+Node7_1 -> Node7_2 [  label="समासः"  dir="back" ]
+Node7_2 -> Node6_1 [  label="कर्म"  dir="back" ]
+Node8_1 -> Node7_2 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node9_1 -> Node14_1 [  label="कर्म"  dir="back" ]
+Node10_1 -> Node14_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node11_1 -> Node14_1 [  label="कर्म"  dir="back" ]
+Node12_1 -> Node13_1 [  label="सम्बन्धः"  dir="back" ]
+Node13_1 -> Node14_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node15_1 -> Node4_1 [  label="कर्ता"  dir="back" ]
+Node16_1 -> Node5_1 [ style=dashed color="red" label="नित्यसम्बन्धः"  dir="both" ]
+Node17_1 -> Node14_1 [  label="कर्ता"  dir="back" ]
+}

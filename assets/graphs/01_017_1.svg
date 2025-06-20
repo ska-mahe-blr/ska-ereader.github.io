@@ -107,22 +107,22 @@
 <ellipse fill="#ff99ff" stroke="#ff99ff" cx="766" cy="-34" rx="44.69" ry="18"/>
 <text text-anchor="middle" x="766" y="-30.3" font-family="Times,serif" font-size="14.00">यथा(8.1)</text>
 </g>
-<!-- Node12_1 -->
+<!-- Node10_1 -->
 <g id="node9" class="node">
-<title>Node12_1</title>
+<title>Node10_1</title>
 <ellipse fill="#ff1975" stroke="#ff1975" cx="692" cy="-121" rx="104.78" ry="18"/>
-<text text-anchor="middle" x="692" y="-117.3" font-family="Times,serif" font-size="14.00">उपातिष्ठन्त(उपातिष्ठन्)(12.1)</text>
+<text text-anchor="middle" x="692" y="-117.3" font-family="Times,serif" font-size="14.00">उपातिष्ठन्त(उपातिष्ठन्)(10.1)</text>
 </g>
-<!-- Node8_1&#45;&gt;Node12_1 -->
+<!-- Node8_1&#45;&gt;Node10_1 -->
 <g id="edge7" class="edge">
-<title>Node8_1&#45;&gt;Node12_1</title>
+<title>Node8_1&#45;&gt;Node10_1</title>
 <path fill="none" stroke="black" d="M757.57,-61.55C754.19,-69.63 749.71,-78.17 744,-85 738,-92.18 730.16,-98.49 722.4,-103.69"/>
 <polygon fill="black" stroke="black" points="760.9,-62.66 761.17,-52.07 754.35,-60.18 760.9,-62.66"/>
 <text text-anchor="middle" x="788.5" y="-73.8" font-family="Times,serif" font-size="14.00">उपमान_द्योतकः</text>
 </g>
-<!-- Node12_1&#45;&gt;Node5_1 -->
+<!-- Node10_1&#45;&gt;Node5_1 -->
 <g id="edge9" class="edge">
-<title>Node12_1&#45;&gt;Node5_1</title>
+<title>Node10_1&#45;&gt;Node5_1</title>
 <path fill="none" stroke="black" d="M648.54,-142.64C617.19,-157.52 575.49,-177.33 546.66,-191.02"/>
 <polygon fill="black" stroke="black" points="650.38,-145.64 657.91,-138.19 647.38,-139.32 650.38,-145.64"/>
 <text text-anchor="middle" x="633.5" y="-160.8" font-family="Times,serif" font-size="14.00">उपमानम्</text>
@@ -133,9 +133,9 @@
 <ellipse fill="#ff99ff" stroke="#ff99ff" cx="660" cy="-34" rx="42.79" ry="18"/>
 <text text-anchor="middle" x="660" y="-30.3" font-family="Times,serif" font-size="14.00">पुरा(9.1)</text>
 </g>
-<!-- Node9_1&#45;&gt;Node12_1 -->
+<!-- Node9_1&#45;&gt;Node10_1 -->
 <g id="edge8" class="edge">
-<title>Node9_1&#45;&gt;Node12_1</title>
+<title>Node9_1&#45;&gt;Node10_1</title>
 <path fill="none" stroke="black" d="M665.7,-61.85C667.66,-69.46 670.1,-77.66 673,-85 675.39,-91.05 678.58,-97.37 681.67,-102.95"/>
 <polygon fill="black" stroke="black" points="669.08,-60.9 663.34,-51.99 662.27,-62.53 669.08,-60.9"/>
 <text text-anchor="middle" x="708.5" y="-73.8" font-family="Times,serif" font-size="14.00">कालाधिकरणम्</text>

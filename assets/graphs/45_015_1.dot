@@ -42,5 +42,5 @@ Node10_1 -> Node8_1 [  label="समुच्चयद्योतकः"  dir="
 Node11_1 -> Node5_1 [  label="देशाधिकरणम्"  dir="back" ]
 Node12_1 -> Node11_1 [  label="विशेषणम्"  dir="back" ]
 Node13_1 -> Node9_1 [  label="सम्बन्धः"  dir="back" ]
-Node14_1 -> Node5_1 [  label="आश्चर्यद्योतकः"  dir="back" ]
+Node14_1 -> Node13_1 [  label="सम्बन्धः"  dir="back" ]
 }

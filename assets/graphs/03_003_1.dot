@@ -11,7 +11,7 @@ Node2_1 [style=filled, color="#00BFFF" label = "गान्धारी(2.1)"]
 
 subgraph cluster_2{
 Node4_1 [style=filled, color="#93DB70" label = "तम्(4.1)"]
-Node5_1 [style=filled, color="#93DB70" label = "पुत्र-शोकम्(5.1)"]
+Node5_1 [style=filled, color="#93DB70" label = "पुत्रशोकम्(5.1)"]
 
 }
 
@@ -23,7 +23,7 @@ Node8_1 [style=filled, color="#C6E2EB" label = "तनयेषु(8.1)"]
 Node2_1 [style=filled, color="#00BFFF" label = "गान्धारी(2.1)"]
 Node13_1 [style=filled, color="#FF1975" label = "आसीत्(13.1)"]
 Node3_1 [style=filled, color="#FF99FF" label = "च(3.1)"]
-Node5_1 [style=filled, color="#93DB70" label = "पुत्र-शोकम्(5.1)"]
+Node5_1 [style=filled, color="#93DB70" label = "पुत्रशोकम्(5.1)"]
 Node6_1 [style=filled, color="#FF99FF" label = "अपास्य(6.1)"]
 Node8_1 [style=filled, color="#C6E2EB" label = "तनयेषु(8.1)"]
 Node14_1 [style=filled, color="#C6E2EB" label = "(पाण्डवेषु)(14.1)"]

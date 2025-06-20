@@ -1,0 +1,42 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3_1 [style=filled, color="#FF99FF" label = "तत्(3.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "सदः(4.1)"]
+
+}
+
+subgraph cluster_2{
+Node8_1 [style=filled, color="#00BFFF" label = "प्रगल्भः(8.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "विप्रः(7.1)"]
+Node9_1 [style=filled, color="#00BFFF" label = "मेधावी(9.1)"]
+Node10_1 [style=filled, color="#00BFFF" label = "सः(10.1)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "अनुमान्य(1.1)"]
+Node12_1 [style=filled, color="#FF1975" label = "उवाच(12.1)"]
+Node2_1 [style=filled, color="#93DB70" label = "महाराजम्(2.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "सदः(4.1)"]
+Node5_1 [style=filled, color="#FF99FF" label = "सम्प्रभाष्य(5.1)"]
+Node6_1 [style=filled, color="#FF99FF" label = "च(6.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "विप्रः(7.1)"]
+Node11_1 [style=filled, color="#93DB70" label = "राजानम्(11.1)"]
+Node13_1 [style=filled, color="#FF99FF" label = "ह(13.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node12_1 [  label="पूर्वकालः"  dir="back" ]
+Node2_1 -> Node1_1 [  label="कर्म"  dir="back" ]
+Node3_1 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node5_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node12_1 [  label="पूर्वकालः"  dir="back" ]
+Node6_1 -> Node5_1 [  label="सम्बन्धः"  dir="back" ]
+Node7_1 -> Node12_1 [  label="कर्ता"  dir="back" ]
+Node8_1 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
+Node10_1 -> Node7_1 [  label="समुच्चितः"  dir="back" ]
+Node11_1 -> Node12_1 [  label="कर्म"  dir="back" ]
+Node13_1 -> Node12_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+}

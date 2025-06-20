@@ -1,0 +1,30 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node5_1 [style=filled, color="#93DB70" label = "तत्(5.1)"]
+Node6_1 [style=filled, color="#93DB70" label = "भवितव्यम्(6.1)"]
+
+}
+Node1_1 [style=filled, color="#6FFFC3" label = "जनाधिप(1.1)"]
+Node4_1 [style=filled, color="#FF1975" label = "मन्ये(4.1)"]
+Node2_1 [style=filled, color="#93DB70" label = "त्वाम्(2.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "अनुप्राप्तम्(3.1)"]
+Node6_3 [style=filled, color="#00BFFF" label = "(अहम्)(6.3)"]
+Node [style=filled, color="" label = "()"]
+Node6_1 [style=filled, color="#93DB70" label = "भवितव्यम्(6.1)"]
+Node6_4 [style=filled, color="#FF1975" label = "(अस्ति)(6.4)"]
+Node6_2 [style=filled, color="#FF99FF" label = "(इति)(6.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node4_1 [  label="सम्बोध्यः"  dir="back" ]
+Node2_1 -> Node3_1 [  label="कर्म"  dir="back" ]
+Node3_1 -> Node3_1 [  label="विधेयविशेषणम्"  dir="back" ]
+Node5_1 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node6_4 [  label="कर्ता"  dir="back" ]
+Node6_2 -> Node6_4 [  label="वाक्यकर्म_द्योतकः"  dir="back" ]
+Node6_2 -> Node4_1 [ style=dotted label="सम्बन्धः"  dir="back" ]
+Node6_3 -> Node4_1 [  label="कर्ता"  dir="back" ]
+}

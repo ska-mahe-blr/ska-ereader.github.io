@@ -1,0 +1,47 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node4_1 [style=filled, color="#87CEEB" label = "अस्य(4.1)"]
+Node3_1 [style=filled, color="#87CEEB" label = "जनस्य(3.1)"]
+
+}
+
+subgraph cluster_2{
+Node6_1 [style=filled, color="#00BFFF" label = "सर्वम्(6.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "वाक्यम्(2.1)"]
+
+}
+Node1_1 [style=filled, color="#6FFFC3" label = "राजन्(1.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "समर्पितम्(7.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "वाक्यम्(2.1)"]
+Node3_1 [style=filled, color="#87CEEB" label = "जनस्य(3.1)"]
+Node5_1 [style=filled, color="#C6E2EB" label = "मयि(5.1)"]
+Node8_1 [style=filled, color="#FF1975" label = "वक्ष्यामि(8.1)"]
+Node10_1 [style=filled, color="#00BFFF" label = "अहम्(10.1)"]
+Node [style=filled, color="" label = "()"]
+Node9_1 [style=filled, color="#93DB70" label = "तत्(9.1)"]
+Node11_1 [style=filled, color="#6FFFC3" label = "वीर(11.1)"]
+Node12_1 [style=filled, color="#93DB70" label = "तत्(12.1)"]
+Node13_1 [style=filled, color="#FF1975" label = "जुषस्व(13.1)"]
+Node15_1 [style=filled, color="#00BFFF" label = "(त्वम्)(15.1)"]
+Node14_1 [style=filled, color="#FFFF00" label = "नर-(14.1)"]
+Node14_2 [style=filled, color="#6FFFC3" label = "अधिप(14.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node7_1 [  label="सम्बोध्यः"  dir="back" ]
+Node2_1 -> Node7_1 [  label="कर्म"  dir="back" ]
+Node3_1 -> Node2_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node4_1 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node7_1 [  label="अधिकरणम्"  dir="back" ]
+Node6_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node8_1 [  label="मुख्यकर्म"  dir="back" ]
+Node10_1 -> Node8_1 [  label="कर्ता"  dir="back" ]
+Node11_1 -> Node8_1 [  label="सम्बोध्यः"  dir="back" ]
+Node12_1 -> Node13_1 [  label="कर्म"  dir="back" ]
+Node14_1 -> Node14_2 [  label="समासः"  dir="back" ]
+Node14_2 -> Node13_1 [  label="सम्बोध्यः"  dir="back" ]
+Node15_1 -> Node13_1 [  label="कर्ता"  dir="back" ]
+}

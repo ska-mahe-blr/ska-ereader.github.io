@@ -37,5 +37,5 @@ Node7_1 -> Node11_1 [  label="सम्बन्धः"  dir="back" ]
 Node8_1 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
 Node9_1 -> Node12_1 [  label="कालाधिकरणम्"  dir="back" ]
 Node10_1 -> Node12_1 [  label="कर्ता"  dir="back" ]
-Node11_1 -> Node10_1 [  label="विधेयविशेषणम्"  dir="back" ]
+Node11_1 -> Node12_1 [  label="विधेयविशेषणम्"  dir="back" ]
 }

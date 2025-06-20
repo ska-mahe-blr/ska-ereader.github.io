@@ -4,34 +4,44 @@ rankdir=BT;
  bgcolor="lemonchiffon1";
 
 subgraph cluster_1{
-Node1 [style=filled, color="#93DB70" label = "दुष्टमतिम्(1)"]
-Node5 [style=filled, color="#93DB70" label = "दुर्योधनम्(5)"]
-Node2 [style=filled, color="#93DB70" label = "मूढम्(2)"]
-Node4 [style=filled, color="#93DB70" label = "भयवर्धनम्(4)"]
+Node1_1 [style=filled, color="#00BFFF" label = "यः(1.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "अहम्(2.1)"]
 
 }
 
 subgraph cluster_2{
-Node8 [style=filled, color="#00BFFF" label = "यः(8)"]
-Node9 [style=filled, color="#00BFFF" label = "अहम्(9)"]
+Node3_2 [style=filled, color="#93DB70" label = "मतिम्(3.2)"]
+Node7_1 [style=filled, color="#93DB70" label = "दुर्योधनम्(7.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "मूढम्(4.1)"]
 
 }
-Node3 [style=filled, color="#87CEEB" label = "ज्ञातीनाम्(3)"]
-Node4 [style=filled, color="#93DB70" label = "भयवर्धनम्(4)"]
-Node5 [style=filled, color="#93DB70" label = "दुर्योधनम्(5)"]
-Node10 [style=filled, color="#FF1975" label = "अभ्यषेचयम्(10)"]
-Node6 [style=filled, color="#87CEEB" label = "कौरवाणाम्(6)"]
-Node7 [style=filled, color="#C6E2EB" label = "आधिपत्ये(7)"]
-Node9 [style=filled, color="#00BFFF" label = "अहम्(9)"]
+
+subgraph cluster_3{
+Node6_2 [style=filled, color="#93DB70" label = "वर्धनम्(6.2)"]
+Node5 [style=filled, color="" label = ""]
+
+}
+Node2_1 [style=filled, color="#00BFFF" label = "अहम्(2.1)"]
+Node10_1 [style=filled, color="#FF1975" label = "अभ्यषेचयम्(10.1)"]
+Node3_1 [style=filled, color="#FFFF00" label = "दुष्ट-(3.1)"]
+Node3_2 [style=filled, color="#93DB70" label = "मतिम्(3.2)"]
+Node5_1 [style=filled, color="#87CEEB" label = "ज्ञातीनाम्(5.1)"]
+Node6_1 [style=filled, color="#FFFF00" label = "भय-(6.1)"]
+Node6_2 [style=filled, color="#93DB70" label = "वर्धनम्(6.2)"]
+Node7_1 [style=filled, color="#93DB70" label = "दुर्योधनम्(7.1)"]
+Node8_1 [style=filled, color="#87CEEB" label = "कौरवाणाम्(8.1)"]
+Node9_1 [style=filled, color="#C6E2EB" label = "आधिपत्ये(9.1)"]
 /* Start of Relations section */
 
-Node1 -> Node5 [  label="विशेषणम्"  dir="back" ]
-Node2 -> Node5 [  label="विशेषणम्"  dir="back" ]
-Node3 -> Node4 [  label="षष्ठीसम्बन्धः"  dir="back" ]
-Node4 -> Node5 [  label="विशेषणम्"  dir="back" ]
-Node5 -> Node10 [  label="कर्म"  dir="back" ]
-Node6 -> Node7 [  label="षष्ठीसम्बन्धः"  dir="back" ]
-Node7 -> Node10 [  label="अधिकरणम्"  dir="back" ]
-Node8 -> Node9 [  label="विशेषणम्"  dir="back" ]
-Node9 -> Node10 [  label="कर्ता"  dir="back" ]
+Node1_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node10_1 [  label="कर्ता"  dir="back" ]
+Node3_1 -> Node3_2 [  label="Bs6"  dir="back" ]
+Node3_2 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node6_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node6_1 -> Node6_2 [  label="T6"  dir="back" ]
+Node6_2 -> Node5 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node10_1 [  label="कर्म"  dir="back" ]
+Node8_1 -> Node9_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node9_1 -> Node10_1 [  label="अधिकरणम्"  dir="back" ]
 }

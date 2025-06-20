@@ -1,0 +1,56 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3_1 [style=filled, color="#93DB70" label = "सर्वं(3.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "व्यवसायं(4.1)"]
+
+}
+
+subgraph cluster_2{
+Node5_1 [style=filled, color="#40E0D0" label = "महाबलः(महाबलेन)(5.1)"]
+Node18_1 [style=filled, color="#40E0D0" label = "रक्षता(18.1)"]
+
+}
+Node1_1 [style=filled, color="#40E0D0" label = "क्रमेण(1.1)"]
+Node14_1 [style=filled, color="#00BFFF" label = "कार्यम्(14.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "युगपत्(2.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "व्यवसायं(4.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "पीडनम्(6.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "सर्वं(3.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "स्तम्भनम्(7.1)"]
+Node8_1 [style=filled, color="#FF99FF" label = "च(8.1)"]
+Node9_1 [style=filled, color="#FF99FF" label = "एव(9.1)"]
+Node10_1 [style=filled, color="#FFFF00" label = "कोश-(10.1)"]
+Node11_1 [style=filled, color="#FF99FF" label = "तथा(11.1)"]
+Node10_2 [style=filled, color="#00BFFF" label = "भङ्गः(10.2)"]
+Node12_1 [style=filled, color="#FF99FF" label = "एव(12.1)"]
+Node13_1 [style=filled, color="#FF99FF" label = "च(13.1)"]
+Node15_1 [style=filled, color="#40E0D0" label = "यत्नेन(15.1)"]
+Node16_1 [style=filled, color="#87CEEB" label = "शत्रूणाम्(16.1)"]
+Node17_2 [style=filled, color="#00BFFF" label = "राष्ट्रम्(17.2)"]
+Node18_1 [style=filled, color="#40E0D0" label = "रक्षता(18.1)"]
+Node19_1 [style=filled, color="#FF99FF" label = "स्वयम्(19.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node14_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node2_1 -> Node14_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node3_1 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node14_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node18_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node3_1 [  label="घटकः"  dir="back" ]
+Node7_1 -> Node3_1 [  label="घटकः"  dir="back" ]
+Node8_1 -> Node7_1 [  label="सम्बन्धः"  dir="back" ]
+Node9_1 -> Node8_1 [  label="सम्बन्धः"  dir="back" ]
+Node10_1 -> Node3_1 [  label="घटकः"  dir="back" ]
+Node11_1 -> Node10_2 [  label="सम्बन्धः"  dir="back" ]
+Node12_1 -> Node11_1 [  label="सम्बन्धः"  dir="back" ]
+Node13_1 -> Node12_1 [  label="सम्बन्धः"  dir="back" ]
+Node15_1 -> Node14_1 [  label="करणम्"  dir="back" ]
+Node16_1 -> Node6_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node17_2 -> Node18_1 [  label="कर्म"  dir="back" ]
+Node18_1 -> Node14_1 [  label="कर्ता"  dir="back" ]
+Node19_1 -> Node18_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+}

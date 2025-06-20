@@ -192,21 +192,8 @@
 <polygon fill="black" stroke="black" points="269.36,-236.37 269.93,-225.79 262.89,-233.71 269.36,-236.37"/>
 <text text-anchor="middle" x="279.34" y="-247.8" font-family="Times,serif" font-size="14.00">सम्बन्धः</text>
 </g>
-<!-- Node13_1 -->
-<g id="node15" class="node">
-<title>Node13_1</title>
-<ellipse fill="#ff99ff" stroke="#ff99ff" cx="628.84" cy="-34" rx="43.59" ry="18"/>
-<text text-anchor="middle" x="628.84" y="-30.3" font-family="Times,serif" font-size="14.00">च(13.1)</text>
-</g>
-<!-- Node13_1&#45;&gt;Node12_1 -->
-<g id="edge13" class="edge">
-<title>Node13_1&#45;&gt;Node12_1</title>
-<path fill="none" stroke="black" d="M601.97,-56.82C590.88,-65.69 577.84,-75.96 565.84,-85 557.16,-91.54 547.45,-98.54 538.97,-104.55"/>
-<polygon fill="black" stroke="black" points="604.42,-59.34 610.02,-50.35 600.03,-53.89 604.42,-59.34"/>
-<text text-anchor="middle" x="622.84" y="-73.8" font-family="Times,serif" font-size="14.00">समुच्चय_द्योतकः</text>
-</g>
 <!-- Node8_1 -->
-<g id="node16" class="node">
+<g id="node15" class="node">
 <title>Node8_1</title>
 <ellipse fill="#40e0d0" stroke="#40e0d0" cx="732.84" cy="-34" rx="42.49" ry="18"/>
 <text text-anchor="middle" x="732.84" y="-30.3" font-family="Times,serif" font-size="14.00">तेन(8.1)</text>
@@ -217,6 +204,19 @@
 <path fill="none" stroke="black" d="M724.31,-61.87C720.05,-75.27 715.03,-91.08 711.3,-102.82"/>
 <polygon fill="black" stroke="black" points="727.69,-62.79 727.38,-52.2 721.02,-60.67 727.69,-62.79"/>
 <text text-anchor="middle" x="731.84" y="-73.8" font-family="Times,serif" font-size="14.00">कर्ता</text>
+</g>
+<!-- Node13_1 -->
+<g id="node16" class="node">
+<title>Node13_1</title>
+<ellipse fill="#ff99ff" stroke="#ff99ff" cx="628.84" cy="-34" rx="43.59" ry="18"/>
+<text text-anchor="middle" x="628.84" y="-30.3" font-family="Times,serif" font-size="14.00">च(13.1)</text>
+</g>
+<!-- Node13_1&#45;&gt;Node12_1 -->
+<g id="edge13" class="edge">
+<title>Node13_1&#45;&gt;Node12_1</title>
+<path fill="none" stroke="black" d="M601.97,-56.82C590.88,-65.69 577.84,-75.96 565.84,-85 557.16,-91.54 547.45,-98.54 538.97,-104.55"/>
+<polygon fill="black" stroke="black" points="604.42,-59.34 610.02,-50.35 600.03,-53.89 604.42,-59.34"/>
+<text text-anchor="middle" x="622.84" y="-73.8" font-family="Times,serif" font-size="14.00">समुच्चय_द्योतकः</text>
 </g>
 </g>
 </svg>

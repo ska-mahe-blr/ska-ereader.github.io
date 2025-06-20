@@ -1,0 +1,44 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node9_2 [style=filled, color="#6FFFC3" label = "यानाः(9.2)"]
+Node10_1 [style=filled, color="#6FFFC3" label = "पन्थानः(10.1)"]
+
+}
+Node1_1 [style=filled, color="#93DB70" label = "एतत्(1.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "प्रियं(3.1)"]
+Node2_1 [style=filled, color="#87CEEB" label = "तव(2.1)"]
+Node4_1 [style=filled, color="#FF99FF" label = "चेत्(4.1)"]
+Node7_1 [style=filled, color="#FF1975" label = "वदामि(7.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "अहम्(5.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "हितं(6.1)"]
+Node [style=filled, color="" label = "()"]
+Node8_1 [style=filled, color="#6FFFC3" label = "पार्थिव(8.1)"]
+Node9_1 [style=filled, color="#FFFF00" label = "देव-(9.1)"]
+Node9_2 [style=filled, color="#6FFFC3" label = "यानाः(9.2)"]
+Node10_1 [style=filled, color="#6FFFC3" label = "पन्थानः(10.1)"]
+Node13_1 [style=filled, color="#93DB70" label = "श्रुताः(13.1)"]
+Node11_1 [style=filled, color="#93DB70" label = "ते(11.1)"]
+Node12_1 [style=filled, color="#FFFF00" label = "यज्ञ-(12.1)"]
+Node12_2 [style=filled, color="#C6E2EB" label = "संस्तरे(12.2)"]
+Node14_1 [style=filled, color="#FF99FF" label = "हि(14.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node3_1 [  label="कर्म"  dir="back" ]
+Node2_1 -> Node3_1 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node4_1 [  label="प्रतियोगी"  dir="back" ]
+Node4_1 -> Node7_1 [  label="अनुयोगी"  dir="back" ]
+Node5_1 -> Node7_1 [  label="कर्ता"  dir="back" ]
+Node6_1 -> Node7_1 [  label="कर्म"  dir="back" ]
+Node8_1 -> Node7_1 [  label="सम्बोध्यः"  dir="back" ]
+Node9_1 -> Node9_2 [  label="समासः"  dir="back" ]
+Node9_2 -> Node10_1 [  label="विशेषणम्"  dir="back" ]
+Node10_1 -> Node13_1 [  label="कर्म"  dir="back" ]
+Node11_1 -> Node13_1 [  label="सम्बन्धः"  dir="back" ]
+Node12_1 -> Node12_2 [  label="समासः"  dir="back" ]
+Node12_2 -> Node13_1 [  label="देशाधिकरणम्"  dir="back" ]
+Node14_1 -> Node7_1 [  label="सम्बन्धः"  dir="back" ]
+}

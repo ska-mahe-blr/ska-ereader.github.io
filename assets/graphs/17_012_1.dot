@@ -1,0 +1,47 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node2_1 [style=filled, color="#00BFFF" label = "असौ(2.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "नराधिपः(7.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "भर्ता(5.1)"]
+
+}
+
+subgraph cluster_2{
+Node4_1 [style=filled, color="#87CEEB" label = "कृत्स्नायाः(4.1)"]
+Node3_1 [style=filled, color="#87CEEB" label = "पृथिव्याः(3.1)"]
+
+}
+Node1_1 [style=filled, color="#00BFFF" label = "यः(1.1)"]
+Node14_1 [style=filled, color="#FF1975" label = "(आसीत्)(14.1)"]
+Node3_1 [style=filled, color="#87CEEB" label = "पृथिव्याः(3.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "भर्ता(5.1)"]
+Node6_1 [style=filled, color="#FF99FF" label = "भूत्वा(6.1)"]
+Node12_1 [style=filled, color="#FF1975" label = "अभीप्सति(12.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "नराधिपः(7.1)"]
+Node8_1 [style=filled, color="#40E0D0" label = "परैः(8.1)"]
+Node9_1 [style=filled, color="#FFFF00" label = "विनिहत-(9.1)"]
+Node9_2 [style=filled, color="#00BFFF" label = "अपत्यः(9.2)"]
+Node10_1 [style=filled, color="#93DB70" label = "वनं(10.1)"]
+Node11_1 [style=filled, color="#FF99FF" label = "गन्तुम्(11.1)"]
+Node121 [style=filled, color="" label = ""]
+Node13_1 [style=filled, color="#00BFFF" label = "(सः)(13.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node14_1 [  label="प्रतियोगी"  dir="back" ]
+Node2_1 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
+Node3_1 -> Node5_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node4_1 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node7_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node12_1 [  label="पूर्वकालः"  dir="back" ]
+Node7_1 -> Node14_1 [  label="कर्ता"  dir="back" ]
+Node8_1 -> Node9_1 [  label="करणम्"  dir="back" ]
+Node9_1 -> Node9_2 [  label="समासः"  dir="back" ]
+Node9_2 -> Node14_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node10_1 -> Node11_1 [  label="कर्म"  dir="back" ]
+Node11_1 -> Node12_1 [  label="कर्म"  dir="back" ]
+Node13_1 -> Node12_1 [  label="कर्ता"  dir="back" ]
+}

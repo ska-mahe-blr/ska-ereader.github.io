@@ -1,0 +1,23 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#FF99FF" label = "अत्र(1.1)"]
+Node7_1 [style=filled, color="#FF1975" label = "(अस्ति)(7.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "षाड्गुण्यम्(2.1)"]
+Node3_1 [style=filled, color="#00BFFF" label = "आयत्तम्(3.1)"]
+Node [style=filled, color="" label = "()"]
+Node4_1 [style=filled, color="#6FFFC3" label = "युधिष्ठिर(4.1)"]
+Node5_1 [style=filled, color="#FF1975" label = "निबोध(5.1)"]
+Node8_1 [style=filled, color="#00BFFF" label = "(त्वम्)(8.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "तत्(6.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node7_1 [  label="अधिकरणम्"  dir="back" ]
+Node2_1 -> Node3_1 [  label="कर्मसमानाधिकरणम्"  dir="back" ]
+Node3_1 -> Node7_1 [ style=dotted label="कर्ता"  dir="back" ]
+Node4_1 -> Node5_1 [  label="सम्बोध्यः"  dir="back" ]
+Node6_1 -> Node5_1 [  label="वाक्यकर्म"  dir="back" ]
+Node6_1 -> Node7_1 [ style=dotted label="सम्बन्धः"  dir="back" ]
+Node8_1 -> Node5_1 [  label="कर्ता"  dir="back" ]
+}

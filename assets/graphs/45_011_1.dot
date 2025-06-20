@@ -1,0 +1,45 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3_1 [style=filled, color="#FF1975" label = "समन्वितः(3.1)"]
+Node12_1 [style=filled, color="#00BFFF" label = "धृतराष्ट्रः(12.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "सहितः(5.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "धीमान्(6.1)"]
+Node10_2 [style=filled, color="#00BFFF" label = "अग्निहोत्रः(10.2)"]
+Node11_2 [style=filled, color="#00BFFF" label = "याजकः(11.2)"]
+
+}
+Node1_1 [style=filled, color="#40E0D0" label = "वध्वा(1.1)"]
+Node3_1 [style=filled, color="#FF1975" label = "समन्वितः(3.1)"]
+Node2_1 [style=filled, color="#40E0D0" label = "कुन्त्या(2.1)"]
+Node4_1 [style=filled, color="#40E0D0" label = "गान्धार्या(4.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "सहितः(5.1)"]
+Node7_1 [style=filled, color="#40E0D0" label = "सञ्जयेन(7.1)"]
+Node13_1 [style=filled, color="#FF1975" label = "जगाम(13.1)"]
+Node8_1 [style=filled, color="#FF99FF" label = "च(8.1)"]
+Node9_1 [style=filled, color="#40E0D0" label = "सूतेन(9.1)"]
+Node10_1 [style=filled, color="#FFFF00" label = "स-(10.1)"]
+Node10_2 [style=filled, color="#00BFFF" label = "अग्निहोत्रः(10.2)"]
+Node11_1 [style=filled, color="#FFFF00" label = "स-(11.1)"]
+Node11_2 [style=filled, color="#00BFFF" label = "याजकः(11.2)"]
+Node12_1 [style=filled, color="#00BFFF" label = "धृतराष्ट्रः(12.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node3_1 [  label="सहार्थः"  dir="back" ]
+Node2_1 -> Node3_1 [  label="सहार्थः"  dir="back" ]
+Node3_1 -> Node12_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node5_1 [  label="सहार्थः"  dir="back" ]
+Node5_1 -> Node12_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node12_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node13_1 [  label="सहार्थः"  dir="back" ]
+Node8_1 -> Node7_1 [  label="सम्बन्धः"  dir="back" ]
+Node9_1 -> Node13_1 [  label="सहार्थः"  dir="back" ]
+Node10_1 -> Node10_2 [  label="समासः"  dir="back" ]
+Node10_2 -> Node12_1 [  label="विशेषणम्"  dir="back" ]
+Node11_1 -> Node11_2 [  label="समासः"  dir="back" ]
+Node11_2 -> Node12_1 [  label="विशेषणम्"  dir="back" ]
+Node12_1 -> Node13_1 [  label="कर्ता"  dir="back" ]
+}

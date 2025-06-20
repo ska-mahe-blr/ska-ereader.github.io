@@ -1,0 +1,43 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_3 [style=filled, color="#93DB70" label = "रत्नानि(1.3)"]
+Node10_2 [style=filled, color="#93DB70" label = "स्त्रियः(10.2)"]
+Node2_1 [style=filled, color="#93DB70" label = "ग्रामान्(2.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "क्षेत्रान्(3.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "अजाविकम्(4.1)"]
+Node5_1 [style=filled, color="#93DB70" label = "अलङ्कारान्(5.1)"]
+Node6_1 [style=filled, color="#93DB70" label = "गजान्(6.1)"]
+Node7_1 [style=filled, color="#93DB70" label = "अश्वान्(7.1)"]
+Node8_1 [style=filled, color="#93DB70" label = "कन्याः(8.1)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "कम्बल-(1.1)"]
+Node1_2 [style=filled, color="#FFFF00" label = "अजिन-(1.2)"]
+Node1_3 [style=filled, color="#93DB70" label = "रत्नानि(1.3)"]
+Node9_1 [style=filled, color="#FF99FF" label = "चैव(9.1)"]
+Node8_1 [style=filled, color="#93DB70" label = "कन्याः(8.1)"]
+Node10_1 [style=filled, color="#FFFF00" label = "वर-(10.1)"]
+Node10_2 [style=filled, color="#93DB70" label = "स्त्रियः(10.2)"]
+Node11_1 [style=filled, color="#FF1975" label = "(ददौ)(11.1)"]
+Node12_1 [style=filled, color="#00BFFF" label = "(सः)(12.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="समासः"  dir="back" ]
+Node1_2 -> Node1_3 [  label="समासः"  dir="back" ]
+Node1_3 -> Node10_2 [  label="समुच्चितः"  dir="back" ]
+Node2_1 -> Node10_2 [  label="समुच्चितः"  dir="back" ]
+Node3_1 -> Node10_2 [  label="समुच्चितः"  dir="back" ]
+Node4_1 -> Node10_2 [  label="समुच्चितः"  dir="back" ]
+Node5_1 -> Node10_2 [  label="समुच्चितः"  dir="back" ]
+Node6_1 -> Node10_2 [  label="समुच्चितः"  dir="back" ]
+Node7_1 -> Node10_2 [  label="समुच्चितः"  dir="back" ]
+Node8_1 -> Node10_2 [  label="समुच्चितः"  dir="back" ]
+Node9_1 -> Node8_1 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node10_1 -> Node10_2 [  label="समासः"  dir="back" ]
+Node10_2 -> Node11_1 [  label="कर्म"  dir="back" ]
+Node12_1 -> Node11_1 [  label="कर्ता"  dir="back" ]
+}

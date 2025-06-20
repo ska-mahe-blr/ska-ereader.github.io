@@ -23,7 +23,8 @@ Node6_1 [style=filled, color="#00BFFF" label = "धृतराष्ट्र�
 Node8_1 [style=filled, color="#93DB70" label = "त्वां(8.1)"]
 Node10_1 [style=filled, color="#FF1975" label = "कुरुष्व(10.1)"]
 Node0 [style=filled, color="" label = ""]
-Node11_1 [style=filled, color="#FF1975" label = "अविचारयन्(11.1)"]
+Node11_1 [style=filled, color="#FF1975" label = "अ-(11.1)"]
+Node11_2 [style=filled, color="#00BFFF" label = "विचारयन्(11.2)"]
 {rank = same; Node3_1; Node9_1;}
 /* Start of Relations section */
 
@@ -36,5 +37,6 @@ Node6_1 -> Node4_1 [  label="कर्ता"  dir="back" ]
 Node7_1 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
 Node8_1 -> Node4_1 [  label="कर्म"  dir="back" ]
 Node9_1 -> Node10_1 [  label="कर्म"  dir="back" ]
-Node11_1 -> Node10_1 [  label="समानकालः"  dir="back" ]
+Node11_1 -> Node11_2 [  label="Tn"  dir="back" ]
+Node11_2 -> Node10_1 [  label="समानकालः"  dir="back" ]
 }

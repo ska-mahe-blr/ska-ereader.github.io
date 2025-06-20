@@ -170,7 +170,7 @@
 <!-- Node1_4 -->
 <g id="node11" class="node">
 <title>Node1_4</title>
-<ellipse fill="#93db70" stroke="#93db70" cx="635" cy="-279" rx="37.89" ry="18"/>
+<ellipse fill="#ff99ff" stroke="#ff99ff" cx="635" cy="-279" rx="37.89" ry="18"/>
 <text text-anchor="middle" x="635" y="-275.3" font-family="Times,serif" font-size="14.00">च(1.4)</text>
 </g>
 <!-- Node1_4&#45;&gt;Node2_2 -->

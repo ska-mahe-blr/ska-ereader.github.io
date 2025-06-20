@@ -1,0 +1,35 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#FFFF00" label = "अश्वमेध-(1.1)"]
+Node1_2 [style=filled, color="#40E0D0" label = "सहस्रेण(1.2)"]
+Node3_1 [style=filled, color="#FF1975" label = "यजेत्(3.1)"]
+Node2_1 [style=filled, color="" label = "यो(2.1)"]
+Node6_1 [style=filled, color="#6FFFC3" label = "वापि(6.1)"]
+Node11_1 [style=filled, color="#FF1975" label = "लभेत्(11.1)"]
+Node [style=filled, color="" label = "()"]
+Node4_1 [style=filled, color="#FFFF00" label = "पृथिवी-(4.1)"]
+Node4_2 [style=filled, color="#00BFFF" label = "पतिः(4.2)"]
+Node5_1 [style=filled, color="#FF1975" label = "पालयेत्(5.1)"]
+Node7_1 [style=filled, color="#40E0D0" label = "धर्मेण(7.1)"]
+Node8_1 [style=filled, color="#93DB70" label = "प्रजाः(8.1)"]
+Node9_1 [style=filled, color="#93DB70" label = "तुल्यम्(9.1)"]
+Node10_1 [style=filled, color="#93DB70" label = "फलं(10.1)"]
+{rank = same; Node2_1; Node6_1;}
+{rank = same; Node2_1; Node11_1;}
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="समासः"  dir="back" ]
+Node1_2 -> Node3_1 [  label="कर्म"  dir="back" ]
+Node2_1 -> Node3_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node6_1 [ style=dashed color="red" label="नित्यसम्बन्धः"  dir="both" ]
+Node2_1 -> Node11_1 [ style=dashed color="red" label="नित्यसम्बन्धः"  dir="both" ]
+Node4_1 -> Node4_2 [  label="समासः"  dir="back" ]
+Node4_2 -> Node5_1 [  label="प्रयोजककर्ता"  dir="back" ]
+Node6_1 -> Node11_1 [  label="कर्ता"  dir="back" ]
+Node7_1 -> Node5_1 [  label="करणम्"  dir="back" ]
+Node8_1 -> Node5_1 [  label="कर्म"  dir="back" ]
+Node9_1 -> Node11_1 [  label="कर्मसमानाधिकरणम्"  dir="back" ]
+Node10_1 -> Node11_1 [  label="कर्म"  dir="back" ]
+}

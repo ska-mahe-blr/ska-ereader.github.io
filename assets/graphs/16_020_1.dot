@@ -1,0 +1,47 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_1 [style=filled, color="#00BFFF" label = "कुन्ती(1.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "सात्वती(5.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "पाञ्चाली(2.1)"]
+Node4_1 [style=filled, color="#00BFFF" label = "उलूपी(4.1)"]
+
+}
+
+subgraph cluster_2{
+Node7_1 [style=filled, color="#C6E2EB" label = "अस्मिन्(7.1)"]
+Node8_1 [style=filled, color="#C6E2EB" label = "जने(8.1)"]
+
+}
+Node3_1 [style=filled, color="#FF99FF" label = "च(3.1)"]
+Node4_1 [style=filled, color="#00BFFF" label = "उलूपी(4.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "सात्वती(5.1)"]
+Node15_1 [style=filled, color="#FF1975" label = "करिष्यन्ति(15.1)"]
+Node6_1 [style=filled, color="#FF99FF" label = "च(6.1)"]
+Node8_1 [style=filled, color="#C6E2EB" label = "जने(8.1)"]
+Node9_1 [style=filled, color="#93DB70" label = "प्रतिकूलानि(9.1)"]
+Node10_1 [style=filled, color="#FF99FF" label = "कर्हिचित्(10.1)"]
+Node11_1 [style=filled, color="#FF99FF" label = "न(11.1)"]
+Node12_1 [style=filled, color="#FF99FF" label = "न(12.1)"]
+Node13_1 [style=filled, color="#FF99FF" label = "न(13.1)"]
+Node14_1 [style=filled, color="#FF99FF" label = "न(14.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node5_1 [  label="समुच्चितः"  dir="back" ]
+Node2_1 -> Node5_1 [  label="समुच्चितः"  dir="back" ]
+Node3_1 -> Node4_1 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node4_1 -> Node5_1 [  label="समुच्चितः"  dir="back" ]
+Node5_1 -> Node15_1 [  label="कर्ता"  dir="back" ]
+Node6_1 -> Node5_1 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node7_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node15_1 [  label="अधिकरणम्"  dir="back" ]
+Node9_1 -> Node15_1 [  label="कर्म"  dir="back" ]
+Node10_1 -> Node15_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node11_1 -> Node15_1 [  label="प्रतिषेधः"  dir="back" ]
+Node12_1 -> Node15_1 [  label="प्रतिषेधः"  dir="back" ]
+Node13_1 -> Node15_1 [  label="प्रतिषेधः"  dir="back" ]
+Node14_1 -> Node15_1 [  label="प्रतिषेधः"  dir="back" ]
+}

@@ -1,0 +1,43 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node4_2 [style=filled, color="#93DB70" label = "अञ्जलिम्(4.2)"]
+Node2_1 [style=filled, color="#FFFF00" label = "धर्म-(2.1)"]
+
+}
+
+subgraph cluster_2{
+Node7_1 [style=filled, color="#00BFFF" label = "राजा(7.1)"]
+Node8_1 [style=filled, color="#93DB70" label = "धृतराष्ट्रः(8.1)"]
+Node9_2 [style=filled, color="#00BFFF" label = "सुतः(9.2)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "इति(1.1)"]
+Node1_2 [style=filled, color="#FF99FF" label = "उक्त्वा(1.2)"]
+Node5_1 [style=filled, color="#FF1975" label = "उवाच(5.1)"]
+Node2_2 [style=filled, color="#93DB70" label = "राजानम्(2.2)"]
+Node3_1 [style=filled, color="#00BFFF" label = "वेपमानः(3.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "कृत-(4.1)"]
+Node4_2 [style=filled, color="#93DB70" label = "अञ्जलिम्(4.2)"]
+Node8_1 [style=filled, color="#93DB70" label = "धृतराष्ट्रः(8.1)"]
+Node [style=filled, color="" label = "()"]
+Node6_1 [style=filled, color="#93DB70" label = "वचनम्(6.1)"]
+Node9_1 [style=filled, color="#FFFF00" label = "अम्बिका-(9.1)"]
+Node9_2 [style=filled, color="#00BFFF" label = "सुतः(9.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="गौणकर्म"  dir="back" ]
+Node1_2 -> Node5_1 [  label="पूर्वकालः"  dir="back" ]
+Node2_2 -> Node1_2 [  label="मुख्यकर्म"  dir="back" ]
+Node3_1 -> Node5_1 [  label="वर्तमानसमानकालः"  dir="back" ]
+Node4_1 -> Node4_2 [  label="Bs3"  dir="back" ]
+Node4_2 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node5_1 [  label="कर्म"  dir="back" ]
+Node7_1 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node5_1 [  label="कर्ता"  dir="back" ]
+Node9_1 -> Node9_2 [  label="T6"  dir="back" ]
+Node9_2 -> Node8_1 [  label="विशेषणम्"  dir="back" ]
+}

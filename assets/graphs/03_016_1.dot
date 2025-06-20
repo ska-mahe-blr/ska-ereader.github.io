@@ -16,6 +16,7 @@ Node5_1 [style=filled, color="#93DB70" label = "नृपम्(5.1)"]
 
 }
 Node1_1 [style=filled, color="#FF1975" label = "अन्ववर्तत(1.1)"]
+Node13_1 [style=filled, color="#FF99FF" label = "(यद्यपि)(13.1)"]
 Node2_1 [style=filled, color="#00BFFF" label = "भीमः(2.1)"]
 Node [style=filled, color="" label = "()"]
 Node3_1 [style=filled, color="#FF99FF" label = "अपि(3.1)"]
@@ -26,11 +27,11 @@ Node10_1 [style=filled, color="#FF1975" label = "भवति(10.1)"]
 Node9_1 [style=filled, color="#FF99FF" label = "सदा(9.1)"]
 Node12_1 [style=filled, color="#00BFFF" label = "(भीमः)(12.1)"]
 Node11_1 [style=filled, color="#00BFFF" label = "दुर्मनाः(11.1)"]
-Node13_1 [style=filled, color="#FF99FF" label = "(यद्यपि)(13.1)"]
 Node14_1 [style=filled, color="#FF99FF" label = "(तथापि)(14.1)"]
-{rank = same; Node14_1; Node13_1;}
+{rank = same; Node13_1; Node14_1;}
 /* Start of Relations section */
 
+Node1_1 -> Node13_1 [  label="प्रतियोगी"  dir="back" ]
 Node2_1 -> Node1_1 [  label="कर्ता"  dir="back" ]
 Node3_1 -> Node2_1 [  label="सम्बन्धः"  dir="back" ]
 Node4_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
@@ -42,7 +43,6 @@ Node8_1 -> Node1_1 [  label="पूर्वकालः"  dir="back" ]
 Node9_1 -> Node10_1 [  label="क्रियाविशेषणम्"  dir="back" ]
 Node11_1 -> Node12_1 [  label="विधेय_विशेषणम्"  dir="back" ]
 Node12_1 -> Node10_1 [  label="कर्ता"  dir="back" ]
-Node13_1 -> Node1_1 [  label="सम्बन्धः"  dir="back" ]
-Node14_1 -> Node11_1 [  label="सम्बन्धः"  dir="back" ]
-Node14_1 -> Node13_1 [ style=dashed color="red" label="नित्यसम्बन्धः"  dir="both" ]
+Node13_1 -> Node14_1 [ style=dashed color="red" label="नित्यसम्बन्धः"  dir="both" ]
+Node14_1 -> Node10_1 [  label="अनुयोगी"  dir="back" ]
 }
